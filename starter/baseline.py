@@ -74,17 +74,48 @@ class TfidfIndex:
         return sorted(results, key=lambda c: (-c['score'], c['id']))[:top_k]
 
 
+MIN_CHUNK_TEXT = 200  # ký tự nội dung tối thiểu của một chunk bị cắt, ít hơn thì bỏ chunk
+TOP_SHARE = 0.6       # tỉ lệ chỗ trống tối đa dành cho chunk hạng 1 khi phải cắt
+
+
+def _truncate(text, limit):
+    if len(text) <= limit:
+        return text
+    cut = text[:max(limit - 1, 0)]
+    if ' ' in cut[limit // 2:]:  # cắt ở ranh giới từ nếu không mất quá nửa
+        cut = cut[:cut.rfind(' ')]
+    return cut.rstrip() + '…'
+
+
 def pack_context(results, budget=800):
-    blocks, ids, seen = [], [], set()
+    """Đóng gói chunk theo thứ hạng vào budget ký tự.
+
+    Vừa hết thì giữ nguyên. Nếu không, KHÔNG bỏ cả chunk hạng thấp: chia đều chỗ
+    còn lại (water-filling, chunk ngắn không bị cắt) và cắt phần đuôi các chunk dài;
+    chunk hạng thấp nhất bị bỏ nếu phần chia được ít hơn MIN_CHUNK_TEXT.
+    """
+    uniq, seen = [], set()
     for c in results:
-        if c['id'] in seen:
-            continue
-        seen.add(c['id'])
-        block = f"[{c['id']} | {c['source']} | page {c['page']}]\n{c['text']}"
-        if len('\n\n'.join(blocks + [block])) <= budget:
-            blocks.append(block)
-            ids.append(c['id'])
-    return '\n\n'.join(blocks), ids
+        if c['id'] not in seen:
+            seen.add(c['id'])
+            uniq.append((c['id'], f"[{c['id']} | {c['source']} | page {c['page']}]\n", c['text']))
+    if len('\n\n'.join(h + t for _, h, t in uniq)) <= budget:
+        return '\n\n'.join(h + t for _, h, t in uniq), [i for i, _, _ in uniq]
+    while uniq:
+        avail = budget - 2 * (len(uniq) - 1) - sum(len(h) for _, h, _ in uniq)
+        # Chunk hạng 1 được ưu tiên tối đa TOP_SHARE phần chỗ trống; phần còn lại chia đều.
+        caps = {0: min(len(uniq[0][2]), int(avail * TOP_SHARE)) if len(uniq) > 1 else min(len(uniq[0][2]), avail)}
+        left = avail - caps[0]
+        order = sorted(range(1, len(uniq)), key=lambda k: len(uniq[k][2]))
+        for n, k in enumerate(order):
+            share = left // (len(order) - n)
+            caps[k] = min(len(uniq[k][2]), share)
+            left -= caps[k]
+        if all(caps[k] >= min(MIN_CHUNK_TEXT, len(uniq[k][2])) for k in caps):
+            blocks = [h + _truncate(t, caps[k]) for k, (_, h, t) in enumerate(uniq)]
+            return '\n\n'.join(blocks), [i for i, _, _ in uniq]
+        uniq.pop()  # bỏ chunk hạng thấp nhất rồi chia lại
+    return '', []
 
 
 def evaluate(index, questions, budget=800):

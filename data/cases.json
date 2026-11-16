@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Mục tiêu HbA1c cho người trưởng thành mắc đái tháo đường, không có thai, là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Hạ đường huyết mức 2 được xác định khi glucose huyết ở ngưỡng nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Người bệnh đái tháo đường bị tụt đường huyết nhưng còn tỉnh và tự uống được thì xử trí như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Theo phần quản lý tăng glucose máu ở bệnh nhân nội trú không có biến chứng cấp, mục tiêu glucose máu khuyến cáo cho đa số bệnh nhân là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Bệnh nhân đái tháo đường típ 2 vốn kiểm soát tốt bằng chế độ ăn, nhập viện vì bệnh nặng không nguy kịch và vẫn ăn được qua miệng: có thể tiếp tục thuốc uống hạ glucose nào, trừ nhóm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Một bệnh nhân đái tháo đường típ 2 có HbA1c 9,5% kèm sụt cân không chủ ý. Hướng dẫn khuyến cáo cân nhắc điều gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Ở người đái tháo đường có bệnh thận, nếu tỷ số albumin/creatinine niệu trên 30 mg/g thì thuốc nào được chỉ định là hàng thứ hai sau metformin?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "test",
+    "question": "Với thai phụ đái tháo đường chỉ tăng đường huyết lúc đói buổi sáng thì dùng loại insulin nào và liều ban đầu bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Trong phần chỉ định theo dõi đường huyết, người đái tháo đường thai kỳ đang điều trị insulin nên đo đường huyết mấy lần mỗi ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Phụ nữ được chẩn đoán đái tháo đường thai kỳ có cần tầm soát biến chứng võng mạc không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "test",
+    "question": "Một cụ ông cao tuổi mắc nhiều bệnh đi kèm, kỳ vọng sống ở mức trung bình thì mục tiêu HbA1c và glucose huyết lúc đói hoặc trước ăn nên là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Khi nào người đái tháo đường nên hoãn buổi tập thể dục vì đường huyết nằm ngoài khoảng an toàn?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Để hai liều insulin trung gian trong ngày không bị cộng dồn tác dụng, nên chọn khoảng cách giữa hai mũi tiêm là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "test",
+    "question": "Khi làm nghiệm pháp dung nạp glucose 75g ở tuần 24-28 của thai kỳ, glucose huyết tương lúc đói đạt ngưỡng nào thì chẩn đoán đái tháo đường thai kỳ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Sau sinh bao lâu thì nên làm lại xét nghiệm để xác định đái tháo đường thật sự ở phụ nữ từng bị đái tháo đường thai kỳ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "Bệnh nhân nhiễm toan ketone có kali máu 3,0 mmol/L thì cần làm gì trước khi bắt đầu truyền insulin?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Ở người đang điều trị nhiễm toan ketone, đường huyết xuống đến mức nào thì cần bổ sung dung dịch glucose 5%?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Thuốc đồng vận thụ thể GLP-1 dạng tiêm dưới da một lần mỗi ngày đang lưu hành ở Việt Nam bắt đầu với liều nào và liều tối đa là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "Bệnh nhân đái tháo đường có độ lọc cầu thận ước tính eGFR 40 mL/phút thì xử trí metformin như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Trong phần các loại insulin, với insulin nền tác dụng kéo dài hơn 42 giờ, người bệnh không cần tiêm cố định giờ mỗi ngày nhưng giữa các lần tiêm phải cách nhau tối thiểu bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "Theo văn bản, mức giá chi trả bảo hiểm y tế cụ thể cho bút tiêm insulin glargine U300 tại bệnh viện tuyến huyện là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quyết định 5481/QĐ-BYT là hướng dẫn chuyên môn chẩn đoán và điều trị, không quy định biểu giá viện phí hay mức thanh toán BHYT cụ thể cho từng loại biệt dược."
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "Liều khởi đầu và cách chỉnh liều của thuốc đồng vận thụ thể GLP-1/GIP kép Tirzepatide (Mounjaro) trong điều trị đái tháo đường típ 2 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Thuốc Tirzepatide được FDA phê chuẩn vào năm 2022, không có trong văn bản hướng dẫn Quyết định 5481/QĐ-BYT ban hành năm 2020."
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "Quy trình tầm soát và tiêu chuẩn chẩn đoán đái tháo đường thai kỳ ở tuần thứ 24-28 bằng nghiệm pháp dung nạp glucose theo khuyến cáo mới nhất của ADA 2024 như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quyết định 5481/QĐ-BYT ban hành năm 2020 dành cho người lớn mắc đái tháo đường típ 2 thông thường, không bao gồm hướng dẫn chuyên biệt thai kỳ theo ADA 2024."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "Liều dùng và chỉ định truyền tĩnh mạch của kháng thể đơn dòng Teplizumab để phòng ngừa tiến triển bệnh đái tháo đường được quy định thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Teplizumab là thuốc điều trị đái tháo đường típ 1 được phê duyệt năm 2022, hoàn toàn không có trong hướng dẫn đái tháo đường típ 2 năm 2020."
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Mục tiêu HbA1c cho người trưởng thành mắc đái tháo đường, không có thai, là bao nhiêu?",
+    "expected_answer": "HbA1c < 7% (53 mmol/mol).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 13,
+        "evidence": "Mục tiêu: HbA1c; Chỉ số: < 7% (53mmol/mol)"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Hạ đường huyết mức 2 được xác định khi glucose huyết ở ngưỡng nào?",
+    "expected_answer": "Glucose < 54 mg/dL (3,0 mmol/L).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 39,
+        "evidence": "Mức 2; Tiêu chí glucose huyết: Glucose <54 mg/dL (3,0 mmol/L)"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Người bệnh đái tháo đường bị tụt đường huyết nhưng còn tỉnh và tự uống được thì xử trí như thế nào?",
+    "expected_answer": "Dùng 15-20 g glucose pha nước uống (hoặc thực phẩm chứa carbohydrate có glucose), thử lại glucose mao mạch sau 15 phút, nếu còn thấp thì lặp lại; khi về bình thường thì cho ăn nhẹ ngay.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 38,
+        "evidence": "bằng 15-20g glucose pha nước uống"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Theo phần quản lý tăng glucose máu ở bệnh nhân nội trú không có biến chứng cấp, mục tiêu glucose máu khuyến cáo cho đa số bệnh nhân là bao nhiêu?",
+    "expected_answer": "7,8 - 10,0 mmol/L (140 - 180 mg/dL).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 33,
+        "evidence": "Mục tiêu glucose máu từ 7,8 - 10,0 mmol/L (140 - 180 mg/dL) được khuyến cáo cho đa số BN"
+      }
+    ],
+    "filter": {
+      "section": "PHAN_5"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Bệnh nhân đái tháo đường típ 2 vốn kiểm soát tốt bằng chế độ ăn, nhập viện vì bệnh nặng không nguy kịch và vẫn ăn được qua miệng: có thể tiếp tục thuốc uống hạ glucose nào, trừ nhóm nào?",
+    "expected_answer": "Có thể tiếp tục thuốc uống hạ glucose máu (nếu không có chống chỉ định và glucose máu ổn định), trừ sulfonylurea và nhóm ức chế SGLT2.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 36,
+        "evidence": "Có thể tiếp tục thuốc uống hạ glucose máu, trừ sulfonylurea, ức chế SGLT2"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Một bệnh nhân đái tháo đường típ 2 có HbA1c 9,5% kèm sụt cân không chủ ý. Hướng dẫn khuyến cáo cân nhắc điều gì?",
+    "expected_answer": "Cân nhắc dùng insulin sớm (do có dị hóa/giảm cân và HbA1c ≥ 9%).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 18,
+        "evidence": "Sử dụng sớm insulin nên cân nhắc nếu có bằng chứng của dị hóa (giảm cân), triệu chứng tăng đường huyết, hoặc nếu mức A1C ≥9%"
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Ở người đái tháo đường có bệnh thận, nếu tỷ số albumin/creatinine niệu trên 30 mg/g thì thuốc nào được chỉ định là hàng thứ hai sau metformin?",
+    "expected_answer": "Thuốc ức chế SGLT-2.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 50,
+        "evidence": "Ức chế SGLT-2 được chỉ định là thuốc hàng thứ nhì khi có tỷ số A/C > 30 mg/g"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "test",
+    "question": "Với thai phụ đái tháo đường chỉ tăng đường huyết lúc đói buổi sáng thì dùng loại insulin nào và liều ban đầu bao nhiêu?",
+    "expected_answer": "Chỉ dùng insulin nền (NPH hoặc detemir), liều ban đầu 0,05 - 0,1 IU/kg/ngày hoặc 2 - 3 UI, tăng 1 - 2 IU mỗi 2 - 3 ngày đến khi đạt mục tiêu.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 55,
+        "evidence": "Nếu chỉ có tăng đường huyết lúc đói buổi sáng: Chỉ dùng insulin nền (NPH hoặc detemir) với liều ban đầu 0,05- 0,1 IU/kg/ngày"
+      }
+    ],
+    "filter": {
+      "section": "PHAN_9"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Trong phần chỉ định theo dõi đường huyết, người đái tháo đường thai kỳ đang điều trị insulin nên đo đường huyết mấy lần mỗi ngày?",
+    "expected_answer": "6 lần/ngày, trước và sau ăn 3 bữa chính.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 58,
+        "evidence": "Những BN điều trị insulin: nên đo đường huyết 6 lần/ngày vào trước và sau ăn 3 bữa chính."
+      }
+    ],
+    "filter": {
+      "section": "PHAN_10"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Phụ nữ được chẩn đoán đái tháo đường thai kỳ có cần tầm soát biến chứng võng mạc không?",
+    "expected_answer": "Không cần.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 48,
+        "evidence": "Không cần tầm soát biến chứng võng mạc cho phụ nữ được chẩn đoán ĐTĐ thai kỳ."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "test",
+    "question": "Một cụ ông cao tuổi mắc nhiều bệnh đi kèm, kỳ vọng sống ở mức trung bình thì mục tiêu HbA1c và glucose huyết lúc đói hoặc trước ăn nên là bao nhiêu?",
+    "expected_answer": "HbA1c < 8,0%; glucose huyết lúc đói hoặc trước ăn 90-150 mg/dL.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 14,
+        "evidence": "Nhiều bệnh, sức khỏe trung bình; Cơ sở để chọn lựa: Kỳ vọng sống trung bình; HbA1c (%): <8,0%"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Khi nào người đái tháo đường nên hoãn buổi tập thể dục vì đường huyết nằm ngoài khoảng an toàn?",
+    "expected_answer": "Không tập nếu glucose huyết > 14,0 hoặc < 5,5 mmol/L, hoặc đang cảm thấy đói, mệt.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 22,
+        "evidence": "Không tập thể dục nếu glucose huyết >14,0 hoặc <5,5 mmol/L, hoặc cảm thấy đói, mệt"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Để hai liều insulin trung gian trong ngày không bị cộng dồn tác dụng, nên chọn khoảng cách giữa hai mũi tiêm là bao nhiêu?",
+    "expected_answer": "Cách nhau 11-12 giờ (đối với insulin NPH).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 19,
+        "evidence": "Nếu tiêm Insulin NPH, 2 mũi tiêm nên cách nhau 11-12 giờ để tránh hiện tượng chồng liều"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "test",
+    "question": "Khi làm nghiệm pháp dung nạp glucose 75g ở tuần 24-28 của thai kỳ, glucose huyết tương lúc đói đạt ngưỡng nào thì chẩn đoán đái tháo đường thai kỳ?",
+    "expected_answer": "Lúc đói ≥ 92 mg/dL (5,1 mmol/L).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 4,
+        "evidence": "Lúc đói ≥ 92 mg/dL (5,1 mmol/L)"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Sau sinh bao lâu thì nên làm lại xét nghiệm để xác định đái tháo đường thật sự ở phụ nữ từng bị đái tháo đường thai kỳ?",
+    "expected_answer": "Từ 4 đến 12 tuần sau sinh, bằng nghiệm pháp dung nạp glucose đường uống với tiêu chuẩn của người không mang thai (không dùng HbA1c).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 4,
+        "evidence": "ở phụ nữ có đái tháo đường thai kỳ, sau khi sinh từ 4 đến 12 tuần"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "Bệnh nhân nhiễm toan ketone có kali máu 3,0 mmol/L thì cần làm gì trước khi bắt đầu truyền insulin?",
+    "expected_answer": "Bù dịch và bù kali trước khi điều trị insulin (vì kali máu < 3,3 mmol/L).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 46,
+        "evidence": "Nếu kali máu < 3,3 mmol/L nên bù dịch và kali trước khi điều trị insulin."
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Ở người đang điều trị nhiễm toan ketone, đường huyết xuống đến mức nào thì cần bổ sung dung dịch glucose 5%?",
+    "expected_answer": "Khi đường huyết xuống 200 mg/dL (11 mmol/L) (ở bệnh nhân tăng áp lực thẩm thấu là 250 mg/dL, 14 mmol/L).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 45,
+        "evidence": "Khi đường huyết xuống 250mg/dL (14,0 mmol/L) ở BN tăng áp lực thẩm thấu hoặc 200mg/dL (11,0 mmol/L) ở BN nhiễm toan ketone thì cần truyền thêm glucose 5%"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Thuốc đồng vận thụ thể GLP-1 dạng tiêm dưới da một lần mỗi ngày đang lưu hành ở Việt Nam bắt đầu với liều nào và liều tối đa là bao nhiêu?",
+    "expected_answer": "Liraglutide: bắt đầu 0,6 mg/ngày, sau 1 tuần có thể tăng lên 1,2 mg/ngày, tối đa 1,8 mg/ngày.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 67,
+        "evidence": "Liều sử dụng liraglutide: 0,6 mg tiêm dưới da mỗi ngày, sau 1 tuần có thể tăng đến 1,2 mg/ngày. Liều tối đa 1,8 mg/ngày."
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "Bệnh nhân đái tháo đường có độ lọc cầu thận ước tính eGFR 40 mL/phút thì xử trí metformin như thế nào?",
+    "expected_answer": "Không chống chỉ định nhưng phải giảm liều (eGFR 30-45 mL/phút); chỉ chống chỉ định khi eGFR < 30 mL/phút.",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 61,
+        "evidence": "Chống chỉ định: BN suy thận (độ lọc cầu thận ước tính eGFR < 30 mL/phút, giảm liều khi độ lọc cầu thận ước tính trong khoảng 30-45 mL/phút)"
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Trong phần các loại insulin, với insulin nền tác dụng kéo dài hơn 42 giờ, người bệnh không cần tiêm cố định giờ mỗi ngày nhưng giữa các lần tiêm phải cách nhau tối thiểu bao lâu?",
+    "expected_answer": "Tối thiểu 8 giờ (insulin degludec).",
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 75,
+        "evidence": "chỉ cần đảm bảo tối thiểu 08 giờ giữa các lần tiêm"
+      }
+    ],
+    "filter": {
+      "section": "PHU_LUC_02"
+    }
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "Theo văn bản, mức giá chi trả bảo hiểm y tế cụ thể cho bút tiêm insulin glargine U300 tại bệnh viện tuyến huyện là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quyết định 5481/QĐ-BYT là hướng dẫn chuyên môn chẩn đoán và điều trị, không quy định biểu giá viện phí hay mức thanh toán BHYT cụ thể cho từng loại biệt dược."
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "Liều khởi đầu và cách chỉnh liều của thuốc đồng vận thụ thể GLP-1/GIP kép Tirzepatide (Mounjaro) trong điều trị đái tháo đường típ 2 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Thuốc Tirzepatide được FDA phê chuẩn vào năm 2022, không có trong văn bản hướng dẫn Quyết định 5481/QĐ-BYT ban hành năm 2020."
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "Quy trình tầm soát và tiêu chuẩn chẩn đoán đái tháo đường thai kỳ ở tuần thứ 24-28 bằng nghiệm pháp dung nạp glucose theo khuyến cáo mới nhất của ADA 2024 như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quyết định 5481/QĐ-BYT ban hành năm 2020 dành cho người lớn mắc đái tháo đường típ 2 thông thường, không bao gồm hướng dẫn chuyên biệt thai kỳ theo ADA 2024."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "Liều dùng và chỉ định truyền tĩnh mạch của kháng thể đơn dòng Teplizumab để phòng ngừa tiến triển bệnh đái tháo đường được quy định thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Teplizumab là thuốc điều trị đái tháo đường típ 1 được phê duyệt năm 2022, hoàn toàn không có trong hướng dẫn đái tháo đường típ 2 năm 2020."
+  }
+]

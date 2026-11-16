@@ -1,0 +1,347 @@
+[
+  {
+    "query_id": "q08",
+    "split": "test",
+    "question": "Với thai phụ đái tháo đường chỉ tăng đường huyết lúc đói buổi sáng thì dùng loại insulin nào và liều ban đầu bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 55,
+        "evidence": "Nếu chỉ có tăng đường huyết lúc đói buổi sáng: Chỉ dùng insulin nền (NPH hoặc detemir) với liều ban đầu 0,05- 0,1 IU/kg/ngày"
+      }
+    ],
+    "results": [
+      {
+        "id": "B-5481-U055-003",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 55,
+        "text": "b) Nếu chỉ có tăng đường huyết lúc đói buổi sáng: Chỉ dùng insulin nền (NPH hoặc detemir) với liều ban đầu 0,05- 0,1 IU/kg/ngày hoặc 2-3 UI Insulin tùy theo mức độ tăng đường huyết, tăng liều 1 - 2 IU mỗi 2 - 3 ngày cho đến khi đạt mục tiêu.",
+        "metadata": {
+          "section": "PHAN_9",
+          "unit_id": "5481-U055"
+        },
+        "score": 0.38383822728249134,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "B-5481-U020-001",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 20,
+        "text": "+ Điều chỉnh liều: tăng liều 10 - 15% hay tăng 1 - 2 đơn vị mỗi 1 hoặc 2 lần mỗi tuần cho đến khi đạt mục tiêu đường huyết lúc đói.\n+ Hạ đường huyết: xác định nguyên nhân hạ đường huyết, nếu không có nguyên nhân rõ ràng, giảm liều insulin 2 - 4 đơn vị hay giảm 10 - 20%.\n- BN đang điều trị insulin nền trước đó: liều khởi đầu bằng liều insulin nền trước đó, chia thành 2/3 buổi sáng, 1/3 buổi chiều HOẶC 1/2 buổi sáng, 1/2 buổi chiều\n- BN chưa điều trị insulin nền: liều khởi đầu theo thông tin kê toa được Bộ y tế phê duyệt. Nếu dùng 2 lần/ngày: chia thành 2/3 buổi sáng, 1/3 buổi chiều HOẶC 1/2 buổi sáng, 1/2 buổi chiều tiêm ngay trước hoặc ngay sau khi ăn (đối với insulin analog).",
+        "metadata": {
+          "section": "PHAN_4",
+          "unit_id": "5481-U020"
+        },
+        "score": 0.3249577478592391,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "B-5481-U004-002",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 4,
+        "text": "- Phụ nữ có tiền sử đái tháo đường thai kỳ, sau đó được phát hiện có tiền đái tháo đường: cần được điều trị can thiệp lối sống tích cực và metformin để phòng ngừa đái tháo đường.\nc) Tầm soát và chẩn đoán đái tháo đường thai kỳ: Hiện tại ở Việt Nam có thể thực hiện phương pháp 1 bước như sau:\nThực hiện nghiệm pháp dung nạp glucose đường uống 75g (75-g OGTT): đo nồng độ glucose huyết tương lúc đói và tại thời điểm 1 giờ, 2 giờ, ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó. Nghiệm pháp dung nạp glucose bằng đường uống phải được thực hiện vào buổi sáng sau khi nhịn đói qua đêm ít nhất là 8 giờ. Chẩn đoán đái tháo đường thai kỳ khi bất kỳ giá trị glucose huyết tương nào thỏa mãn tiêu chuẩn sau đây:\n- Lúc đói ≥ 92 mg/dL (5,1 mmol/L)",
+        "metadata": {
+          "section": "PHAN_2",
+          "unit_id": "5481-U004"
+        },
+        "score": 0.3243416897317391,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[B-5481-U055-003 | 5481_QD-BYT_460925.docx | page 55]\nb) Nếu chỉ có tăng đường huyết lúc đói buổi sáng: Chỉ dùng insulin nền (NPH hoặc detemir) với liều ban đầu 0,05- 0,1 IU/kg/ngày hoặc 2-3 UI Insulin tùy theo mức độ tăng đường huyết, tăng liều 1 - 2 IU mỗi 2 - 3 ngày cho đến khi đạt mục tiêu.\n\n[B-5481-U020-001 | 5481_QD-BYT_460925.docx | page 20]\n+ Điều chỉnh liều: tăng liều 10 - 15% hay tăng 1 - 2 đơn vị mỗi 1 hoặc 2 lần mỗi tuần cho đến khi đạt mục tiêu đường huyết lúc đói.\n+ Hạ đường huyết: xác định nguyên nhân hạ đường huyết, nếu không có nguyên nhân rõ ràng, giảm liều insulin 2 - 4 đơn vị hay giảm 10 - 20%.\n- BN đang điều trị insulin nền trước đó: liều khởi đầu bằng liều insulin nền trước đó, chia thành 2/3 buổi sáng, 1/3 buổi chiều HOẶC 1/2 buổi sáng, 1/2 buổi chiều\n- BN chưa…",
+    "context_ids": [
+      "B-5481-U055-003",
+      "B-5481-U020-001"
+    ],
+    "context_chars": 795,
+    "elapsed_ms": 0.901399995200336,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q11",
+    "split": "test",
+    "question": "Một cụ ông cao tuổi mắc nhiều bệnh đi kèm, kỳ vọng sống ở mức trung bình thì mục tiêu HbA1c và glucose huyết lúc đói hoặc trước ăn nên là bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 14,
+        "evidence": "Nhiều bệnh, sức khỏe trung bình; Cơ sở để chọn lựa: Kỳ vọng sống trung bình; HbA1c (%): <8,0%"
+      }
+    ],
+    "results": [
+      {
+        "id": "B-5481-U014-001",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 14,
+        "text": "Bảng 5: Mục tiêu điều trị đái tháo đường ở người cao tuổi\nTình trạng sức khỏe: Mạnh khỏe; Cơ sở để chọn lựa: Còn sống lâu; HbA1c (%): <7,5%; Glucose huyết lúc đói hoặc trước ăn (mg/dL): 90-130; Glucose lúc đi ngủ (mg/dL): 90-150; Huyết áp mmHg: <140/90\nTình trạng sức khỏe: Nhiều bệnh, sức khỏe trung bình; Cơ sở để chọn lựa: Kỳ vọng sống trung bình; HbA1c (%): <8,0%; Glucose huyết lúc đói hoặc trước ăn (mg/dL): 90-150; Glucose lúc đi ngủ (mg/dL): 100-180; Huyết áp mmHg: <140/90\nTình trạng sức khỏe: Nhiều bệnh phức tạp hoặc bệnh nguy kịch/ sức khỏe kém; Cơ sở để chọn lựa: Không còn sống lâu; HbA1c (%): <8,5%; Glucose huyết lúc đói hoặc trước ăn (mg/dL): 100-180; Glucose lúc đi ngủ (mg/dL): 110-200; Huyết áp mmHg: <150/90\n* Đánh giá về kiểm soát đường huyết:",
+        "metadata": {
+          "section": "PHAN_4",
+          "unit_id": "5481-U014"
+        },
+        "score": 0.30762196337342423,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "B-5481-U013-003",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 13,
+        "text": "- Cần chú ý mục tiêu glucose huyết sau ăn (sau khi bắt đầu ăn 1-2 giờ) nếu đã đạt được mục tiêu glucose huyết lúc đói nhưng chưa đạt được mục tiêu HbA1c.",
+        "metadata": {
+          "section": "PHAN_4",
+          "unit_id": "5481-U013"
+        },
+        "score": 0.2696607107033399,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "B-5481-U011-003",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 11,
+        "text": "HbA1c là giá trị glucose huyết trung bình trong 3 tháng. Bảng dưới đây chỉ có tính cách tham khảo vì trị số glucose huyết dao động rất nhanh, do đó tốt nhất là tự đo đường huyết nhiều lần trong ngày (đối với ĐTĐ típ 2 có thể đo lúc đói, sau ăn, trước khi đi ngủ) để biết sự dao động của đường huyết và ảnh hưởng của bữa ăn. Khi glucose huyết đã tương đối ổn định, có thể đo glucose huyết với tần xuất thưa hơn.\nHbA1c thường được khuyến cáo đo 3 tháng một lần để theo dõi sát tình trạng kiểm soát glucose huyết.\nBảng 3: Tương quan giữa HbA1c và nồng độ glucose huyết trung bình\nHbA1c (%): 13; HbA1c (mmol/mol): 119; Glucose huyết trung bình (mmol/L): 18\nHbA1c (%): 12; HbA1c (mmol/mol): 108; Glucose huyết trung bình (mmol/L): 17",
+        "metadata": {
+          "section": "PHAN_3",
+          "unit_id": "5481-U011"
+        },
+        "score": 0.2685417690228262,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[B-5481-U014-001 | 5481_QD-BYT_460925.docx | page 14]\nBảng 5: Mục tiêu điều trị đái tháo đường ở người cao tuổi\nTình trạng sức khỏe: Mạnh khỏe; Cơ sở để chọn lựa: Còn sống lâu; HbA1c (%): <7,5%; Glucose huyết lúc đói hoặc trước ăn (mg/dL): 90-130; Glucose lúc đi ngủ (mg/dL): 90-150; Huyết áp mmHg: <140/90\nTình trạng sức khỏe: Nhiều bệnh, sức khỏe trung bình; Cơ sở để chọn lựa: Kỳ vọng sống trung bình; HbA1c (%): <8,0%; Glucose huyết lúc đói hoặc trước ăn…\n\n[B-5481-U013-003 | 5481_QD-BYT_460925.docx | page 13]\n- Cần chú ý mục tiêu glucose huyết sau ăn (sau khi bắt đầu ăn 1-2 giờ) nếu đã đạt được mục tiêu glucose huyết lúc đói nhưng chưa đạt được mục tiêu HbA1c.",
+    "context_ids": [
+      "B-5481-U014-001",
+      "B-5481-U013-003"
+    ],
+    "context_chars": 668,
+    "elapsed_ms": 0.9546000001137145,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q14",
+    "split": "test",
+    "question": "Khi làm nghiệm pháp dung nạp glucose 75g ở tuần 24-28 của thai kỳ, glucose huyết tương lúc đói đạt ngưỡng nào thì chẩn đoán đái tháo đường thai kỳ?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 4,
+        "evidence": "Lúc đói ≥ 92 mg/dL (5,1 mmol/L)"
+      }
+    ],
+    "results": [
+      {
+        "id": "B-5481-U004-002",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 4,
+        "text": "- Phụ nữ có tiền sử đái tháo đường thai kỳ, sau đó được phát hiện có tiền đái tháo đường: cần được điều trị can thiệp lối sống tích cực và metformin để phòng ngừa đái tháo đường.\nc) Tầm soát và chẩn đoán đái tháo đường thai kỳ: Hiện tại ở Việt Nam có thể thực hiện phương pháp 1 bước như sau:\nThực hiện nghiệm pháp dung nạp glucose đường uống 75g (75-g OGTT): đo nồng độ glucose huyết tương lúc đói và tại thời điểm 1 giờ, 2 giờ, ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó. Nghiệm pháp dung nạp glucose bằng đường uống phải được thực hiện vào buổi sáng sau khi nhịn đói qua đêm ít nhất là 8 giờ. Chẩn đoán đái tháo đường thai kỳ khi bất kỳ giá trị glucose huyết tương nào thỏa mãn tiêu chuẩn sau đây:\n- Lúc đói ≥ 92 mg/dL (5,1 mmol/L)",
+        "metadata": {
+          "section": "PHAN_2",
+          "unit_id": "5481-U004"
+        },
+        "score": 0.6057000820576307,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "B-5481-U004-001",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 4,
+        "text": "- Thực hiện xét nghiệm chẩn đoán ĐTĐ thai kỳ ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó.\n- Thực hiện xét nghiệm để chẩn đoán đái tháo đường thật sự (bền vững): ở phụ nữ có đái tháo đường thai kỳ, sau khi sinh từ 4 đến 12 tuần. Dùng nghiệm pháp dung nạp glucose đường uống và áp dụng các tiêu chuẩn chẩn đoán dành cho người trưởng thành không mang thai. Sử dụng các tiêu chuẩn chẩn đoán đái tháo đường tại điểm a, b, d của điểm 1.1 - Mục 1. Chẩn đoán (không áp dụng tiêu chuẩn về HbA1c).\n- Ở phụ nữ có tiền sử đái tháo đường thai kỳ nên thực hiện xét nghiệm phát hiện sớm ĐTĐ hay tiền ĐTĐ ít nhất mỗi 1- 3 năm một lần.",
+        "metadata": {
+          "section": "PHAN_2",
+          "unit_id": "5481-U004"
+        },
+        "score": 0.5012592459111995,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "B-5481-U056-002",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 56,
+        "text": "a) ĐTĐ mang thai (Diabetes in pregnancy) được chẩn đoán theo tiêu chuẩn của WHO với glucose huyết tương lúc đói ≥ 7 mmol/L (126 mg/dL); và/hoặc glucose huyết tương 2 giờ sau uống 75g glucose ≥ 11,1 mmol/L)\nb) ĐTĐ không được chẩn đoán trước mang thai (chủ yếu là ĐTĐ típ 2) có glucose huyết đạt ngưỡng chẩn đoán ĐTĐ ngoài thai kỳ.\n5.3.2. Điều trị insulin\na) Các thể ĐTĐ này cần được điều trị insulin ngay sau khi chẩn đoán.\nb) Thường phải dùng chế độ insulin nền - bữa ăn ngoại trừ một số ít các trường hợp chỉ có tăng đường huyết sau ăn thì chỉ dùng insulin nhanh trước các bữa ăn như điều trị ĐTĐTK.",
+        "metadata": {
+          "section": "PHAN_9",
+          "unit_id": "5481-U056"
+        },
+        "score": 0.4035649282226444,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[B-5481-U004-002 | 5481_QD-BYT_460925.docx | page 4]\n- Phụ nữ có tiền sử đái tháo đường thai kỳ, sau đó được phát hiện có tiền đái tháo đường: cần được điều trị can thiệp lối sống tích cực và metformin để phòng ngừa đái tháo đường.\nc) Tầm soát và chẩn đoán đái tháo đường thai kỳ: Hiện tại ở Việt Nam có thể thực hiện phương pháp 1 bước như sau:\nThực hiện nghiệm pháp dung nạp glucose đường uống 75g (75-g OGTT): đo nồng độ glucose huyết tương lúc đói và tại thời…\n\n[B-5481-U004-001 | 5481_QD-BYT_460925.docx | page 4]\n- Thực hiện xét nghiệm chẩn đoán ĐTĐ thai kỳ ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó.\n- Thực hiện xét nghiệm để chẩn đoán đái tháo đường thật sự (bền vững): ở phụ nữ có đái tháo đường thai kỳ, sau khi sinh từ 4 đến…",
+    "context_ids": [
+      "B-5481-U004-002",
+      "B-5481-U004-001"
+    ],
+    "context_chars": 795,
+    "elapsed_ms": 0.8487000013701618,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Thuốc đồng vận thụ thể GLP-1 dạng tiêm dưới da một lần mỗi ngày đang lưu hành ở Việt Nam bắt đầu với liều nào và liều tối đa là bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 67,
+        "evidence": "Liều sử dụng liraglutide: 0,6 mg tiêm dưới da mỗi ngày, sau 1 tuần có thể tăng đến 1,2 mg/ngày. Liều tối đa 1,8 mg/ngày."
+      }
+    ],
+    "results": [
+      {
+        "id": "B-5481-U019-001",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 19,
+        "text": "- Khi đã điều chỉnh liều insulin nền đạt được mục tiêu glucose huyết đói nhưng HbA1c vẫn chưa đạt mục tiêu, xem xét thêm insulin nhanh trước bữa ăn. Một cách khác có thể xem xét là chuyển sang insulin hỗn hợp tiêm dưới da 2 lần mỗi ngày. Nếu vẫn không đạt được mục tiêu, có thể xem xét chuyển sang insulin nền - insulin nhanh trước mỗi bữa ăn (basal-bolus).\n- Liều khởi trị với insulin nền: insulin người như NPH (tiêm 1-2 lần/ ngày) hay insulin analog như glargine, detemir (tiêm 1 lần/ngày), Degludec (tiêm 1 lần/ngày liều khởi đầu là 10 đơn vị tiêm dưới da)\n- Nếu tiêm Insulin NPH, 2 mũi tiêm nên cách nhau 11-12 giờ để tránh hiện tượng chồng liều. Nếu tiêm glargine, detemir hoặc Degludec nên tiêm vào giờ cố định mỗi ngày vào buổi sáng, hoặc buổi tối",
+        "metadata": {
+          "section": "PHAN_4",
+          "unit_id": "5481-U019"
+        },
+        "score": 0.2464369923644969,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "B-5481-U062-001",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 62,
+        "text": "Cách dùng: dùng trước hoặc sau ăn, nên khởi đầu ở liều thấp và tăng liều từ từ mỗi 5 - 7 ngày để làm giảm tác dụng phụ trên đường tiêu hóa, dạng bào chế phóng thích chậm (XR) có thể giảm tác dụng phụ trên đường tiêu hóa\nMetformin thường được lựa chọn là thuốc khởi đầu điều trị ở BN đái tháo đường típ 2.\n3. Glinides\nHiện có tại Việt Nam: Repaglinide hàm lượng 0,5-1-2mg\nCơ chế tác dụng tương tự như sulfonylurea. Thuốc làm giảm HbA1c từ 1 - 1,5%.\nThuốc được hấp thu nhanh ở ruột, chuyển hóa hoàn toàn ở gan và thải qua mật, do đó thời gian bán hủy ngắn dưới 1 giờ. Thuốc làm tăng tiết insulin nhanh nên liều thường dùng là 0,5-1 mg uống trước các bữa ăn 15 phút. Liều tối đa 16 mg/ngày.",
+        "metadata": {
+          "section": "PHU_LUC_01",
+          "unit_id": "5481-U062"
+        },
+        "score": 0.23824194772135376,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "B-5481-U063-003",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 63,
+        "text": "Thuốc hiện có tại Việt Nam: Acarbose, hàm lượng 50 mg. Liều đầu có thể từ 25 mg uống ngay đầu bữa ăn, 3 lần/ngày.",
+        "metadata": {
+          "section": "PHU_LUC_01",
+          "unit_id": "5481-U063"
+        },
+        "score": 0.22855707199340447,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[B-5481-U019-001 | 5481_QD-BYT_460925.docx | page 19]\n- Khi đã điều chỉnh liều insulin nền đạt được mục tiêu glucose huyết đói nhưng HbA1c vẫn chưa đạt mục tiêu, xem xét thêm insulin nhanh trước bữa ăn. Một cách khác có thể xem xét là chuyển sang insulin hỗn hợp tiêm dưới da 2 lần mỗi ngày. Nếu vẫn không đạt được mục tiêu, có thể xem xét chuyển sang insulin nền - insulin nhanh trước mỗi bữa ăn (basal-bolus).\n- Liều khởi trị với insulin nền: insulin người như NPH…\n\n[B-5481-U062-001 | 5481_QD-BYT_460925.docx | page 62]\nCách dùng: dùng trước hoặc sau ăn, nên khởi đầu ở liều thấp và tăng liều từ từ mỗi 5 - 7 ngày để làm giảm tác dụng phụ trên đường tiêu hóa, dạng bào chế phóng thích chậm (XR) có thể giảm tác dụng phụ trên đường tiêu hóa\nMetformin thường được lựa chọn là thuốc khởi đầu điều…",
+    "context_ids": [
+      "B-5481-U019-001",
+      "B-5481-U062-001"
+    ],
+    "context_chars": 797,
+    "elapsed_ms": 0.9227000045939349,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Trong phần các loại insulin, với insulin nền tác dụng kéo dài hơn 42 giờ, người bệnh không cần tiêm cố định giờ mỗi ngày nhưng giữa các lần tiêm phải cách nhau tối thiểu bao lâu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "5481",
+        "page": 75,
+        "evidence": "chỉ cần đảm bảo tối thiểu 08 giờ giữa các lần tiêm"
+      }
+    ],
+    "results": [
+      {
+        "id": "B-5481-U075-002",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 75,
+        "text": "Trạng thái ổn định đạt được sau 2 - 3 ngày dùng thuốc và tác dụng làm giảm glucose của insulin Degludec ở trạng thái ổn định cho thấy sự biến đổi về hệ số biến thiên từ ngày này qua ngày khác thấp hơn 4 lần khi so với insulin glargine U 100. Bên cạnh đó, Degludec cho phép linh hoạt về thời gian sử dụng (không bắt buộc phải tiệm cùng thời điểm trong ngày, chỉ cần đảm bảo tối thiểu 08 giờ giữa các lần tiêm).\nd) Insulin trộn, hỗn hợp5:\nInsulin trộn sẵn gồm 2 loại tác dụng nhanh và tác dụng dài trong một lọ hoặc một bút tiêm. Thuốc sẽ có 2 đỉnh tác dụng, insulin tác dụng nhanh để chuyển hóa carbohydrat trong bữa ăn và insulin tác dụng dài để tạo nồng độ insulin nền giữa các bữa ăn. Hiện có các loại:\n- 70% insulin isophane/30% insulin hòa tan",
+        "metadata": {
+          "section": "PHU_LUC_02",
+          "unit_id": "5481-U075"
+        },
+        "score": 0.3745025761494166,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "B-5481-U019-001",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 19,
+        "text": "- Khi đã điều chỉnh liều insulin nền đạt được mục tiêu glucose huyết đói nhưng HbA1c vẫn chưa đạt mục tiêu, xem xét thêm insulin nhanh trước bữa ăn. Một cách khác có thể xem xét là chuyển sang insulin hỗn hợp tiêm dưới da 2 lần mỗi ngày. Nếu vẫn không đạt được mục tiêu, có thể xem xét chuyển sang insulin nền - insulin nhanh trước mỗi bữa ăn (basal-bolus).\n- Liều khởi trị với insulin nền: insulin người như NPH (tiêm 1-2 lần/ ngày) hay insulin analog như glargine, detemir (tiêm 1 lần/ngày), Degludec (tiêm 1 lần/ngày liều khởi đầu là 10 đơn vị tiêm dưới da)\n- Nếu tiêm Insulin NPH, 2 mũi tiêm nên cách nhau 11-12 giờ để tránh hiện tượng chồng liều. Nếu tiêm glargine, detemir hoặc Degludec nên tiêm vào giờ cố định mỗi ngày vào buổi sáng, hoặc buổi tối",
+        "metadata": {
+          "section": "PHAN_4",
+          "unit_id": "5481-U019"
+        },
+        "score": 0.37097149487681136,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "B-5481-U074-002",
+        "source_id": "5481",
+        "source": "5481_QD-BYT_460925.docx",
+        "page": 74,
+        "text": "NPH (Neutral Protamine Hagedorn hoặc Isophane Insulin): thuốc có tác dụng kéo dài nhờ phối hợp 2 phần insulin zinc hòa tan với 1 phần protamine zinc insulin. Sau khi tiêm dưới da, thuốc bắt dầu tác dụng sau 2-4 giờ, đỉnh tác dụng sau 6-7 giờ và thời gian kéo dài khoảng 10-20 giờ. Thường cần tiêm 2 lần một ngày để đạt hiệu quả kéo dài.\nc) Insulin tác dụng chậm, kéo dài:",
+        "metadata": {
+          "section": "PHU_LUC_02",
+          "unit_id": "5481-U074"
+        },
+        "score": 0.3672850653219563,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[B-5481-U075-002 | 5481_QD-BYT_460925.docx | page 75]\nTrạng thái ổn định đạt được sau 2 - 3 ngày dùng thuốc và tác dụng làm giảm glucose của insulin Degludec ở trạng thái ổn định cho thấy sự biến đổi về hệ số biến thiên từ ngày này qua ngày khác thấp hơn 4 lần khi so với insulin glargine U 100. Bên cạnh đó, Degludec cho phép linh hoạt về thời gian sử dụng (không bắt buộc phải tiệm cùng thời điểm trong ngày, chỉ cần đảm bảo tối thiểu 08 giờ giữa các lần tiêm).\nd)…\n\n[B-5481-U019-001 | 5481_QD-BYT_460925.docx | page 19]\n- Khi đã điều chỉnh liều insulin nền đạt được mục tiêu glucose huyết đói nhưng HbA1c vẫn chưa đạt mục tiêu, xem xét thêm insulin nhanh trước bữa ăn. Một cách khác có thể xem xét là chuyển sang insulin hỗn hợp tiêm dưới da 2 lần mỗi ngày. Nếu vẫn không đạt được mục tiêu, có…",
+    "context_ids": [
+      "B-5481-U075-002",
+      "B-5481-U019-001"
+    ],
+    "context_chars": 797,
+    "elapsed_ms": 0.9284999978262931,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

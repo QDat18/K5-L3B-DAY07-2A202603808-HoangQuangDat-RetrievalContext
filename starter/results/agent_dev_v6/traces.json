@@ -1,0 +1,1181 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Mục tiêu HbA1c cho người trưởng thành mắc đái tháo đường, không có thai là < 7% (53 mmol/mol). [B-5481-U013-001]",
+    "citations": [
+      "B-5481-U013-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Mục tiêu HbA1c cho người trưởng thành mắc đái tháo đường, không có thai, là bao nhiêu?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U013-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 13,
+            "text": "- Chống đông\n- Điều trị và kiểm soát biến chứng, bệnh đồng mắc.\n3. Các loại thuốc điều trị ĐTĐ\n- Thuốc uống: Metformin, Sulfonylurea, ức chế enzym alpha glucosidase, ức chế kênh SGLT2, ức chế enzym DPP- 4, TZD (Pioglitazon).\n- Thuốc tiêm: Insulin, đồng vận thụ thể GLP-1.\n2. Mục tiêu điều trị\nBảng 4: Mục tiêu điều trị cho BN ĐTĐ ở người trưởng thành, không có thai\nMục tiêu: HbA1c; Chỉ số: < 7% (53mmol/mol)\nMục tiêu: Glucose huyết tương mao mạch lúc đói, trước ăn; Chỉ số: 80-130 mg/dL (4,4-7,2 mmol/L)*\nMục tiêu: Đỉnh glucose huyết tương mao mạch sau ăn 1-2 giờ; Chỉ số: <180 mg/dL (10,0 mmol/L)*\nMục tiêu: Huyết áp; Chỉ số: Tâm thu <140 mmHg, Tâm trương <90 mmHg\nNếu đã có biến chứng thận, hoặc có yếu tố nguy cơ tim mạch do xơ vữa cao: Huyết áp <130/80 mmHg",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U013"
+            },
+            "score": 0.8943143486976624,
+            "method": "rerank",
+            "dense_score": 0.6174891626887248
+          },
+          {
+            "id": "B-5481-U053-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 53,
+            "text": "a) Đối với ĐTĐTK: Đường huyết ở các thời điểm khác nhau trong ngày là chỉ số quan trọng, giúp đánh giá sớm kết quả điều trị và thời điểm đường huyết chưa đạt mục tiêu để điều chỉnh điều trị cho phù hợp. Chỉ số HbA1c có giá trị thứ yếu vì thời gian từ khi chẩn đoán ĐTĐTK đến khi thai phụ sinh chỉ từ 3 - 4 tháng.\nb) Đối với ĐTĐ có từ trước mang thai: Cả đường huyết và HbA1c đều có giá trị để đánh giá tình trạng kiểm soát đường huyết. Đặc biệt cần đảm bảo mức HbA1c <6,5% trước mang thai để đảm bảo an toàn cho cả mẹ và thai nhi.\nc) HbA1c được đo mỗi lần một tháng. Lý tưởng nhất, mục tiêu A1C trong thai kỳ là, 6% (42 mmol / mol) mà không cần bị hạ đường huyết đáng kể, nhưng mục tiêu có thể được nới lỏng khoảng 7% (53mmol / mol) nếu cần để ngăn ngừa hạ đường huyết",
+            "metadata": {
+              "section": "PHAN_9",
+              "unit_id": "5481-U053"
+            },
+            "score": 0.6418477296829224,
+            "method": "rerank",
+            "dense_score": 0.665331761678885
+          },
+          {
+            "id": "B-5481-U058-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 58,
+            "text": "- HbA1c cao ≥ 7,0% và đường huyết dao động nhiều\n- Muốn hạ HbA1c < 7,0% mà không gây hạ đường huyết (glucose < 3,9mmol/L)\n- Trước và trong khi mang thai, ĐTĐ thai kỳ\n- Bất kể BN nào có HbA1c ≥ 7,0% và có điều kiện sử dụng CGM\n- BN đang nằm viện điều trị vì bệnh cấp tính cần theo dõi sát đường huyết\n- Những BN có mong muốn quản lý bệnh ĐTĐ tốt hơn",
+            "metadata": {
+              "section": "PHAN_10",
+              "unit_id": "5481-U058"
+            },
+            "score": 0.6410197615623474,
+            "method": "rerank",
+            "dense_score": 0.6489515786402589
+          }
+        ],
+        "context": "[B-5481-U013-001 | 5481_QD-BYT_460925.docx | page 13]\n- Chống đông\n- Điều trị và kiểm soát biến chứng, bệnh đồng mắc.\n3. Các loại thuốc điều trị ĐTĐ\n- Thuốc uống: Metformin, Sulfonylurea, ức chế enzym alpha glucosidase, ức chế kênh SGLT2, ức chế enzym DPP- 4, TZD (Pioglitazon).\n- Thuốc tiêm: Insulin, đồng vận thụ thể GLP-1.\n2. Mục tiêu điều trị\nBảng 4: Mục tiêu điều trị cho BN ĐTĐ ở người trưởng thành, không có thai\nMục tiêu: HbA1c; Chỉ số: < 7% (53mmol/mol)\nMục tiêu: Glucose huyết tương mao mạch lúc đói, trước ăn; Chỉ số: 80-130 mg/dL (4,4-7,2 mmol/L)*\nMục tiêu: Đỉnh glucose huyết tương mao mạch sau ăn 1-2 giờ; Chỉ số: <180 mg/dL (10,0 mmol/L)*\nMục tiêu: Huyết áp; Chỉ số: Tâm thu <140 mmHg, Tâm trương <90 mmHg\nNếu đã có biến chứng thận, hoặc có yếu tố nguy cơ tim mạch do xơ vữa cao: Huyết áp <130/80 mmHg\n\n[B-5481-U053-002 | 5481_QD-BYT_460925.docx | page 53]\na) Đối với ĐTĐTK: Đường huyết ở các thời điểm khác nhau trong ngày là chỉ số quan trọng, giúp đánh giá sớm kết quả điều trị và thời điểm đường huyết chưa đạt mục tiêu để điều chỉnh điều trị cho phù hợp. Chỉ số HbA1c có giá trị thứ yếu vì thời gian từ khi chẩn đoán ĐTĐTK đến khi thai…\n\n[B-5481-U058-003 | 5481_QD-BYT_460925.docx | page 58]\n- HbA1c cao ≥ 7,0% và đường huyết dao động nhiều\n- Muốn hạ HbA1c < 7,0% mà không gây hạ đường huyết (glucose < 3,9mmol/L)\n- Trước và trong khi mang thai, ĐTĐ thai kỳ\n- Bất kể BN nào có HbA1c ≥ 7,0% và có điều kiện sử dụng CGM\n- BN đang nằm viện điều trị vì bệnh cấp tính cần theo dõi…",
+        "context_ids": [
+          "B-5481-U013-001",
+          "B-5481-U053-002",
+          "B-5481-U058-003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Hạ đường huyết mức 2 được xác định khi glucose huyết <54 mg/dL (3,0 mmol/L). [B-5481-U039-001]",
+    "citations": [
+      "B-5481-U039-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Hạ đường huyết mức 2 được xác định khi glucose huyết ở ngưỡng nào?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U039-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 39,
+            "text": "g) Cần đánh giá chức năng nhận thức cho những BN có nhiều cơn hạ đường huyết hoặc cơn hạ đường huyết nặng để kịp thời điều chỉnh phác đồ điều trị\n2. Phân mức độ hạ đường huyết\nHạ đường huyết được chia làm 3 mức độ, dựa vào nồng độ glucose huyết: Bảng Phân mức độ hạ glucose huyết\nMức 1; Tiêu chí glucose huyết: Glucose <70 mg/dL (3,9 mmol/L) và ≥54 mg/dL (3,0 mmol/L)\nMức 2; Tiêu chí glucose huyết: Glucose <54 mg/dL (3,0 mmol/L)\nMức 3; Tiêu chí glucose huyết: Hạ đường huyết mức độ nặng, BN có rối loạn ý thức và/hoặc có thay đổi biểu hiện toàn thân cần xử trí cấp cứu\n3. Xử trí\nThực hiện các biện pháp cấp cứu ban đầu theo các bước ABC Các biện pháp điều trị cấp cứu đặc hiệu\na) Truyền glucose tĩnh mạch",
+            "metadata": {
+              "section": "PHAN_6",
+              "unit_id": "5481-U039"
+            },
+            "score": 0.8339712023735046,
+            "method": "rerank",
+            "dense_score": 0.7020127710081264
+          },
+          {
+            "id": "B-5481-U018-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 18,
+            "text": "- Nếu người bệnh có nguy cơ cao hạ glucose máu: ưu tiên chọn DPP-4i, SGLT-2i, GLP-1, TZD\n- Nếu người bệnh cần giảm cân: ưu tiên chọn SGLT-2i, GLP-1\nf) Sử dụng sớm insulin nên cân nhắc nếu có bằng chứng của dị hóa (giảm cân), triệu chứng tăng đường huyết, hoặc nếu mức A1C ≥9% hoặc mức glucose huyết rất cao ≥300 mg/dL (16.7 mmol/L).\ng) Ở BN ĐTĐ típ 2 không đạt được HbA1c mục tiêu với thuốc hạ đường huyết uống thì thuốc đồng vận thụ thể GLP-1 được ưu tiên hơn là insulin nhờ vào khả năng kiểm soát đường huyết tốt, cải thiện chức năng tế bào beta, hiệu quả giảm cân tốt, lợi ích trên tim mạch và tỉ lệ mắc biến chứng hạ đường huyết thấp của GLP-1 RA khi đơn trị liệu hay phối hợp với các thuốc điều trị đái tháo đường dạng uống đã được chứng minh.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U018"
+            },
+            "score": 0.17432758212089539,
+            "method": "rerank",
+            "dense_score": 0.6324354094420932
+          },
+          {
+            "id": "B-5481-U002-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 2,
+            "text": "Chẩn đoán xác định nếu có 2 kết quả trên ngưỡng chẩn đoán trong cùng 1 mẫu máu xét nghiệm hoặc ở 2 thời điểm khác nhau đối với tiêu chí a, b, hoặc c; riêng tiêu chí d: chỉ cần một lần xét nghiệm duy nhất.\nLưu ý:\n- Glucose huyết đói được đo khi BN nhịn ăn (không uống nước ngọt, có thể uống nước lọc, nước đun sôi để nguội) ít nhất 8 giờ (thường phải nhịn đói qua đêm từ 8 -14 giờ).",
+            "metadata": {
+              "section": "PHAN_2",
+              "unit_id": "5481-U002"
+            },
+            "score": 0.1191263347864151,
+            "method": "rerank",
+            "dense_score": 0.6454685579613355
+          }
+        ],
+        "context": "[B-5481-U039-001 | 5481_QD-BYT_460925.docx | page 39]\ng) Cần đánh giá chức năng nhận thức cho những BN có nhiều cơn hạ đường huyết hoặc cơn hạ đường huyết nặng để kịp thời điều chỉnh phác đồ điều trị\n2. Phân mức độ hạ đường huyết\nHạ đường huyết được chia làm 3 mức độ, dựa vào nồng độ glucose huyết: Bảng Phân mức độ hạ glucose huyết\nMức 1; Tiêu chí glucose huyết: Glucose <70 mg/dL (3,9 mmol/L) và ≥54 mg/dL (3,0 mmol/L)\nMức 2; Tiêu chí glucose huyết: Glucose <54 mg/dL (3,0 mmol/L)\nMức 3; Tiêu chí glucose huyết: Hạ đường huyết mức độ nặng, BN có rối loạn ý thức và/hoặc có thay đổi biểu hiện toàn thân cần xử trí cấp cứu\n3. Xử trí\nThực hiện các biện pháp cấp cứu ban đầu theo các bước ABC Các biện pháp điều trị cấp cứu đặc hiệu\na) Truyền glucose tĩnh mạch\n\n[B-5481-U018-001 | 5481_QD-BYT_460925.docx | page 18]\n- Nếu người bệnh có nguy cơ cao hạ glucose máu: ưu tiên chọn DPP-4i, SGLT-2i, GLP-1, TZD\n- Nếu người bệnh cần giảm cân: ưu tiên chọn SGLT-2i, GLP-1\nf) Sử dụng sớm insulin nên cân nhắc nếu có bằng chứng của dị hóa (giảm cân), triệu chứng tăng đường huyết, hoặc nếu mức A1C ≥9% hoặc mức glucose huyết rất cao ≥300…\n\n[B-5481-U002-002 | 5481_QD-BYT_460925.docx | page 2]\nChẩn đoán xác định nếu có 2 kết quả trên ngưỡng chẩn đoán trong cùng 1 mẫu máu xét nghiệm hoặc ở 2 thời điểm khác nhau đối với tiêu chí a, b, hoặc c; riêng tiêu chí d: chỉ cần một lần xét nghiệm duy nhất.\nLưu ý:\n- Glucose huyết đói được đo khi BN nhịn ăn (không uống nước ngọt, có thể uống nước lọc, nước đun sôi…",
+        "context_ids": [
+          "B-5481-U039-001",
+          "B-5481-U018-001",
+          "B-5481-U002-002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Người bệnh tỉnh táo và tự uống được, nên dùng 15-20g glucose pha nước uống hoặc thực phẩm chứa glucose, sau đó đo glucose huyết lại sau 15 phút. Nếu vẫn thấp, điều trị lại liều như cũ. [B-5481-U038-002] [B-5481-U039-003]",
+    "citations": [
+      "B-5481-U038-002",
+      "B-5481-U039-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Người bệnh đái tháo đường bị tụt đường huyết nhưng còn tỉnh và tự uống được thì xử trí như thế nào?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U039-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 39,
+            "text": "b) Ăn uống đường miệng: Ngay khi bệnh nhân tỉnh lại (hoặc bệnh nhân còn tỉnh), nước hoa quả (vd: nước táo, nước nho; 300 ml chứa khoảng 15g glucose) là sự lựa chọn tốt để duy trì nồng độ glucose máu, hoặc một bữa ăn nhẹ là phù hợp\nc) Glucagon: Nếu chưa có đường truyền tĩnh mạch, có thể tiêm bắp 1mg glucagon. Thời gian đáp ứng vào khoảng 10 - 15 phút, và buồn nôn và nôn do sự điều chỉnh quá mức nồng độ glucose máu (quá liều glucagon) khá phổ biến. Vì glucagon có thể tiêm bắp nên tất cả bệnh nhân đái tháo đường đang dùng insulin (hoặc gia đình họ) cần luôn mang theo glucagon và biết cách tiêm nếu cần.\nd) Theo dõi\n- Chú ý thời gian tác dụng của insulin hoặc các thuốc uống hạ đường máu mà bệnh nhân đã sử dụng.",
+            "metadata": {
+              "section": "PHAN_6",
+              "unit_id": "5481-U039"
+            },
+            "score": 0.9626973867416382,
+            "method": "rerank",
+            "dense_score": 0.6724612897726989
+          },
+          {
+            "id": "B-5481-U012-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 12,
+            "text": "- Nguyên tắc sử dụng thuốc: can thiệp thay đổi lối sống ưu tiên hàng đầu, hạn chế tối đa lượng thuốc dùng, định kỳ kiểm tra tác dụng và tuân thủ thuốc cũ trước khi kê đơn mới, phác đồ phù hợp có thể tuân thủ tốt - tối ưu điều trị, khả thi với BN, có tính yếu tố chi phí và tính sẵn có.\nc) Dịch vụ tư vấn dinh dưỡng, hoạt động thể lực, tự theo dõi, hỗ trợ điều trị nên được triển khai, sẵn sàng cung cấp, hỗ trợ cho bác sỹ điều trị, điều dưỡng, nhân viên y tế, người chăm sóc và BN.\nd) Chất lượng chăm sóc, điều trị BN đái tháo đường cần được thường xuyên giám sát, lượng giá và hiệu chỉnh cho phù hợp 1-2 lần/năm\ne) Các phương pháp điều trị tổng thể bao gồm một số các biện pháp sau:",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U012"
+            },
+            "score": 0.8855239152908325,
+            "method": "rerank",
+            "dense_score": 0.6386080649833705
+          },
+          {
+            "id": "B-5481-U038-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 38,
+            "text": "c) Điều trị cơn hạ đường huyết cho người bệnh tỉnh táo, tự uống được (Glucose huyết <3,9 mmol/L hay 70mg/dL) bằng 15-20g glucose pha nước uống, hoặc bất cứ loại thực phẩm nào chứa carbonhydrate có glucose dùng thay thế. Thử lại glucose huyết mao mạch sau 15 phút. Nếu vẫn còn thấp, điều trị nhắc lại liều như trên. Nếu glucose huyết về bình thường: cho người bệnh ăn nhẹ ngay để tránh nguy cơ tái xuất hiện hạ glucose huyết.\nd) Người bệnh hạ glucose huyết mức độ 2 trở lên cần được tiêm glucagon (nếu có)\ne) Người bệnh có nhiều cơn hạ đường huyết, hạ đường huyết không triệu chứng hoặc hạ đường huyết nặng cần được rà soát lại phác đồ điều trị, tìm nguyên nhân và có kế hoạch điều trị phù hợp.",
+            "metadata": {
+              "section": "PHAN_6",
+              "unit_id": "5481-U038"
+            },
+            "score": 0.796595573425293,
+            "method": "rerank",
+            "dense_score": 0.6740152420961472
+          }
+        ],
+        "context": "[B-5481-U039-003 | 5481_QD-BYT_460925.docx | page 39]\nb) Ăn uống đường miệng: Ngay khi bệnh nhân tỉnh lại (hoặc bệnh nhân còn tỉnh), nước hoa quả (vd: nước táo, nước nho; 300 ml chứa khoảng 15g glucose) là sự lựa chọn tốt để duy trì nồng độ glucose máu, hoặc một bữa ăn nhẹ là phù hợp\nc) Glucagon: Nếu chưa có đường truyền tĩnh mạch, có thể tiêm bắp 1mg glucagon. Thời gian đáp ứng vào khoảng 10 - 15 phút, và buồn nôn và nôn do sự điều chỉnh quá mức nồng độ glucose máu (quá liều glucagon) khá phổ biến. Vì glucagon có thể tiêm bắp nên tất cả bệnh nhân đái tháo đường đang dùng insulin (hoặc gia đình họ) cần luôn mang theo glucagon và biết cách tiêm nếu cần.\nd) Theo dõi\n- Chú ý thời gian tác dụng của insulin hoặc các thuốc uống hạ đường máu mà bệnh nhân đã sử dụng.\n\n[B-5481-U012-002 | 5481_QD-BYT_460925.docx | page 12]\n- Nguyên tắc sử dụng thuốc: can thiệp thay đổi lối sống ưu tiên hàng đầu, hạn chế tối đa lượng thuốc dùng, định kỳ kiểm tra tác dụng và tuân thủ thuốc cũ trước khi kê đơn mới, phác đồ phù hợp có thể tuân thủ tốt - tối ưu điều trị, khả thi với BN, có tính yếu tố chi phí và tính sẵn có.\nc) Dịch vụ tư vấn…\n\n[B-5481-U038-002 | 5481_QD-BYT_460925.docx | page 38]\nc) Điều trị cơn hạ đường huyết cho người bệnh tỉnh táo, tự uống được (Glucose huyết <3,9 mmol/L hay 70mg/dL) bằng 15-20g glucose pha nước uống, hoặc bất cứ loại thực phẩm nào chứa carbonhydrate có glucose dùng thay thế. Thử lại glucose huyết mao mạch sau 15 phút. Nếu vẫn còn thấp, điều trị nhắc lại liều như…",
+        "context_ids": [
+          "B-5481-U039-003",
+          "B-5481-U012-002",
+          "B-5481-U038-002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Mục tiêu glucose máu từ 7,8 - 10,0 mmol/L (140 - 180 mg/dL) được khuyến cáo cho đa số bệnh nhân nội trú không có biến chứng cấp. [B-5481-U033-001]",
+    "citations": [
+      "B-5481-U033-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo phần quản lý tăng glucose máu ở bệnh nhân nội trú không có biến chứng cấp, mục tiêu glucose máu khuyến cáo cho đa số bệnh nhân là bao nhiêu?",
+        "filter": {
+          "section": "PHAN_5"
+        },
+        "results": [
+          {
+            "id": "B-5481-U033-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 33,
+            "text": "QUẢN LÝ TĂNG GLUCOSE MÁU Ở BỆNH NHÂN NỘI TRÚ KHÔNG CÓ BIẾN CHỨNG CẤP\n1. Mục tiêu glucose máu\na) Mục tiêu glucose máu từ 7,8 - 10,0 mmol/L (140 - 180 mg/dL) được khuyến cáo cho đa số BN (A)\nb) Mục tiêu glucose máu tích cực hơn từ 6,1 - 7,8 mmol/L (110 - 140 mg/dL) cho BN trẻ nếu có thể đạt được mục tiêu này mà không có hạ ĐH đáng kể. (C)\n2. Phác đồ điều trị tăng glucose máu cho bệnh nhân mắc bệnh nguy kịch\na) Truyền insulin tĩnh mạch là phương pháp lựa chọn để kiểm soát glucose máu ở bệnh nhân có tăng glucose máu và tình trạng nguy kịch. Sử dụng insulin nhanh, truyền bơm tiêm điện (pha với dung dịch natri clorua đ ng trương để được nồng độ insulin 1 IU/mL).\nb) Cần có phác đồ truyền insulin tĩnh mạch trên giấy hoặc vi tính hóa để thực hiện cho thuận tiện.",
+            "metadata": {
+              "section": "PHAN_5",
+              "unit_id": "5481-U033"
+            },
+            "score": 0.9995778203010559,
+            "method": "rerank",
+            "dense_score": 0.795527804297712
+          },
+          {
+            "id": "B-5481-U037-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 37,
+            "text": "b) Bệnh nhân dùng glucocorticoid tác dụng trung bình 2 lần/ngày (sáng, chiều) hoặc glucocorticoid tác dụng kéo dài (dexamethason) : thêm insulin 0,1 IU/kg/ngày, chia 25% thêm vào insulin nền, 75% thêm insulin nhanh chia đều 3 lần trước các bữa ăn.\n6. Bệnh nhân chu phẫu\na) Mục tiêu glucose máu thời kỳ chu phẫu : 4,4 - 10,0 mmol/L (80 - 180 mg/dL).\nb) Ngừng metformin trong ngày phẫu thuật\nc) Ngừng các thuốc uống hạ glucose khác vào buổi sáng ngày phẫu thuật và tiêm nửa liều insulin NPH hoặc 60 - 80% liều insulin tác dụng kéo dài.\nd) Theo dõi glucose huyết ít nhất mối 4 - 6 giờ trong khi BN không ăn gì qua miệng và tiêm các mũi insulin nhanh khi cần như insulin hiệu chỉnh trong các đồ trên.",
+            "metadata": {
+              "section": "PHAN_5",
+              "unit_id": "5481-U037"
+            },
+            "score": 0.6602144837379456,
+            "method": "rerank",
+            "dense_score": 0.6442606641131841
+          },
+          {
+            "id": "B-5481-U036-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 36,
+            "text": "- Bệnh nhân không ăn qua miệng: ngừng các thuốc uống hạ glucose máu, tiêm insulin hiệu chỉnh, thêm insulin nhanh vào dịch truyền nuôi dưỡng như trường hợp trên.\n- Bệnh nhân ăn qua miệng:\n* Có thể tiếp tục thuốc uống hạ glucose máu, trừ sulfonylurea, ức chế SGLT2, nếu không có chống chỉ định và glucose máu ổn định.\n* Dùng insulin nền và insulin nhanh như các trường hợp trên.\ni) Nếu không đạt được mục tiêu glucose máu thì điều chỉnh như sau:\n- Xem xét và xử lý những yếu tố khác gây tăng glucose máu.\n- Điều chỉnh insulin như sau:\n* Điều chỉnh insulin nền: tăng 10 - 20% liều mỗi 1 - 2 ngày cho đến khi đạt mục tiêu.\n* Thêm insulin nền (nếu chưa dùng) với liều 0,2 - 0,3 IU/kg/24 giờ và điều chỉnh 10 - 20% liều mỗi 1 - 2 ngày, loại insulin và mũi tiêm như các trường hợp trên.",
+            "metadata": {
+              "section": "PHAN_5",
+              "unit_id": "5481-U036"
+            },
+            "score": 0.4235047698020935,
+            "method": "rerank",
+            "dense_score": 0.6140183393364652
+          }
+        ],
+        "context": "[B-5481-U033-001 | 5481_QD-BYT_460925.docx | page 33]\nQUẢN LÝ TĂNG GLUCOSE MÁU Ở BỆNH NHÂN NỘI TRÚ KHÔNG CÓ BIẾN CHỨNG CẤP\n1. Mục tiêu glucose máu\na) Mục tiêu glucose máu từ 7,8 - 10,0 mmol/L (140 - 180 mg/dL) được khuyến cáo cho đa số BN (A)\nb) Mục tiêu glucose máu tích cực hơn từ 6,1 - 7,8 mmol/L (110 - 140 mg/dL) cho BN trẻ nếu có thể đạt được mục tiêu này mà không có hạ ĐH đáng kể. (C)\n2. Phác đồ điều trị tăng glucose máu cho bệnh nhân mắc bệnh nguy kịch\na) Truyền insulin tĩnh mạch là phương pháp lựa chọn để kiểm soát glucose máu ở bệnh nhân có tăng glucose máu và tình trạng nguy kịch. Sử dụng insulin nhanh, truyền bơm tiêm điện (pha với dung dịch natri clorua đ ng trương để được nồng độ insulin 1 IU/mL).\nb) Cần có phác đồ truyền insulin tĩnh mạch trên giấy hoặc vi tính hóa để thực hiện cho thuận tiện.\n\n[B-5481-U037-003 | 5481_QD-BYT_460925.docx | page 37]\nb) Bệnh nhân dùng glucocorticoid tác dụng trung bình 2 lần/ngày (sáng, chiều) hoặc glucocorticoid tác dụng kéo dài (dexamethason) : thêm insulin 0,1 IU/kg/ngày, chia 25% thêm vào insulin nền, 75% thêm insulin nhanh chia đều 3 lần trước các bữa ăn.\n6. Bệnh nhân chu phẫu\na) Mục tiêu…\n\n[B-5481-U036-002 | 5481_QD-BYT_460925.docx | page 36]\n- Bệnh nhân không ăn qua miệng: ngừng các thuốc uống hạ glucose máu, tiêm insulin hiệu chỉnh, thêm insulin nhanh vào dịch truyền nuôi dưỡng như trường hợp trên.\n- Bệnh nhân ăn qua miệng:\n* Có thể tiếp tục thuốc uống hạ glucose máu, trừ sulfonylurea, ức chế SGLT2, nếu không có chống…",
+        "context_ids": [
+          "B-5481-U033-001",
+          "B-5481-U037-003",
+          "B-5481-U036-002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Có, bệnh nhân có thể tiếp tục thuốc uống hạ glucose, trừ nhóm sulfonylurea và ức chế SGLT2, nếu không có chống chỉ định và glucose máu ổn định. [B-5481-U036-002] [B-5481-U037-002]",
+    "citations": [
+      "B-5481-U036-002",
+      "B-5481-U037-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Bệnh nhân đái tháo đường típ 2 vốn kiểm soát tốt bằng chế độ ăn, nhập viện vì bệnh nặng không nguy kịch và vẫn ăn được qua miệng: có thể tiếp tục thuốc uống hạ glucose nào, trừ nhóm nào?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U036-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 36,
+            "text": "- Bệnh nhân không ăn qua miệng: ngừng các thuốc uống hạ glucose máu, tiêm insulin hiệu chỉnh, thêm insulin nhanh vào dịch truyền nuôi dưỡng như trường hợp trên.\n- Bệnh nhân ăn qua miệng:\n* Có thể tiếp tục thuốc uống hạ glucose máu, trừ sulfonylurea, ức chế SGLT2, nếu không có chống chỉ định và glucose máu ổn định.\n* Dùng insulin nền và insulin nhanh như các trường hợp trên.\ni) Nếu không đạt được mục tiêu glucose máu thì điều chỉnh như sau:\n- Xem xét và xử lý những yếu tố khác gây tăng glucose máu.\n- Điều chỉnh insulin như sau:\n* Điều chỉnh insulin nền: tăng 10 - 20% liều mỗi 1 - 2 ngày cho đến khi đạt mục tiêu.\n* Thêm insulin nền (nếu chưa dùng) với liều 0,2 - 0,3 IU/kg/24 giờ và điều chỉnh 10 - 20% liều mỗi 1 - 2 ngày, loại insulin và mũi tiêm như các trường hợp trên.",
+            "metadata": {
+              "section": "PHAN_5",
+              "unit_id": "5481-U036"
+            },
+            "score": 0.9984909296035767,
+            "method": "rerank",
+            "dense_score": 0.6800579595427803
+          },
+          {
+            "id": "B-5481-U037-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 37,
+            "text": "- Các thuốc hạ glucose huyết không phải insulin mà BN đang dùng ở nhà có thể tiếp tục sử dụng trong một số trường hợp: tình trạng BN ổn định, bệnh mắc kèm theo nhẹ - trung bình, ăn uống bình thường, glucose huyết ổn định, chức năng tim, thận bình thường.\n- Thận trọng với các thuốc hạ glucose huyết có nguy cơ tác dụng phụ cao như sulfonylurea, glinide, ức chế SGLT-2, thiazolidinedion, ức chế alpha- glucosidase.\n5. Bệnh nhân có dùng glucocorticoid\na) Bệnh nhân dùng glucocorticoid tác dụng trung bình (hydrocortison, prednison, prednisolon, methylprenisolon) 1 lần buổi sáng: Thêm insulin nhanh với liều 0,1 IU/ngày với mỗi 10 mg prednison (hoặc liều glucocorticoid khác tương đương), chia 3 lần 20% trước ăn sáng, 40% trước ăn trưa và 40% trước ăn tối.",
+            "metadata": {
+              "section": "PHAN_5",
+              "unit_id": "5481-U037"
+            },
+            "score": 0.877698540687561,
+            "method": "rerank",
+            "dense_score": 0.6394971276528713
+          },
+          {
+            "id": "B-5481-U039-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 39,
+            "text": "b) Ăn uống đường miệng: Ngay khi bệnh nhân tỉnh lại (hoặc bệnh nhân còn tỉnh), nước hoa quả (vd: nước táo, nước nho; 300 ml chứa khoảng 15g glucose) là sự lựa chọn tốt để duy trì nồng độ glucose máu, hoặc một bữa ăn nhẹ là phù hợp\nc) Glucagon: Nếu chưa có đường truyền tĩnh mạch, có thể tiêm bắp 1mg glucagon. Thời gian đáp ứng vào khoảng 10 - 15 phút, và buồn nôn và nôn do sự điều chỉnh quá mức nồng độ glucose máu (quá liều glucagon) khá phổ biến. Vì glucagon có thể tiêm bắp nên tất cả bệnh nhân đái tháo đường đang dùng insulin (hoặc gia đình họ) cần luôn mang theo glucagon và biết cách tiêm nếu cần.\nd) Theo dõi\n- Chú ý thời gian tác dụng của insulin hoặc các thuốc uống hạ đường máu mà bệnh nhân đã sử dụng.",
+            "metadata": {
+              "section": "PHAN_6",
+              "unit_id": "5481-U039"
+            },
+            "score": 0.6636202335357666,
+            "method": "rerank",
+            "dense_score": 0.648541355480843
+          }
+        ],
+        "context": "[B-5481-U036-002 | 5481_QD-BYT_460925.docx | page 36]\n- Bệnh nhân không ăn qua miệng: ngừng các thuốc uống hạ glucose máu, tiêm insulin hiệu chỉnh, thêm insulin nhanh vào dịch truyền nuôi dưỡng như trường hợp trên.\n- Bệnh nhân ăn qua miệng:\n* Có thể tiếp tục thuốc uống hạ glucose máu, trừ sulfonylurea, ức chế SGLT2, nếu không có chống chỉ định và glucose máu ổn định.\n* Dùng insulin nền và insulin nhanh như các trường hợp trên.\ni) Nếu không đạt được mục tiêu glucose máu thì điều chỉnh như sau:\n- Xem xét và xử lý những yếu tố khác gây tăng glucose máu.\n- Điều chỉnh insulin như sau:\n* Điều chỉnh insulin nền: tăng 10 - 20% liều mỗi 1 - 2 ngày cho đến khi đạt mục tiêu.\n* Thêm insulin nền (nếu chưa dùng) với liều 0,2 - 0,3 IU/kg/24 giờ và điều chỉnh 10 - 20% liều mỗi 1 - 2 ngày, loại insulin và mũi tiêm như các trường hợp trên.\n\n[B-5481-U037-002 | 5481_QD-BYT_460925.docx | page 37]\n- Các thuốc hạ glucose huyết không phải insulin mà BN đang dùng ở nhà có thể tiếp tục sử dụng trong một số trường hợp: tình trạng BN ổn định, bệnh mắc kèm theo nhẹ - trung bình, ăn uống bình thường, glucose huyết ổn định, chức năng tim, thận bình thường.\n- Thận trọng với các…\n\n[B-5481-U039-003 | 5481_QD-BYT_460925.docx | page 39]\nb) Ăn uống đường miệng: Ngay khi bệnh nhân tỉnh lại (hoặc bệnh nhân còn tỉnh), nước hoa quả (vd: nước táo, nước nho; 300 ml chứa khoảng 15g glucose) là sự lựa chọn tốt để duy trì nồng độ glucose máu, hoặc một bữa ăn nhẹ là phù hợp\nc) Glucagon: Nếu chưa có đường truyền tĩnh…",
+        "context_ids": [
+          "B-5481-U036-002",
+          "B-5481-U037-002",
+          "B-5481-U039-003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Không cần can thiệp thuốc ngay lập tức. Nên ưu tiên thay đổi lối sống (chế độ ăn uống tốt cho tim mạch, hoạt động thể lực) để kiểm soát đường huyết, giảm cân nếu cần và cải thiện các yếu tố nguy cơ tim mạch xơ vữa. Cần thực hiện dịch vụ tư vấn dinh dưỡng, hỗ trợ hoạt động thể lực và tự theo dõi. [B-5481-U030-003] [B-5481-U012-002]",
+    "citations": [
+      "B-5481-U030-003",
+      "B-5481-U012-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Một bệnh nhân đái tháo đường típ 2 có HbA1c 9,5% kèm sụt cân không chủ ý. Hướng dẫn khuyến cáo cân nhắc điều gì?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U058-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 58,
+            "text": "- HbA1c cao ≥ 7,0% và đường huyết dao động nhiều\n- Muốn hạ HbA1c < 7,0% mà không gây hạ đường huyết (glucose < 3,9mmol/L)\n- Trước và trong khi mang thai, ĐTĐ thai kỳ\n- Bất kể BN nào có HbA1c ≥ 7,0% và có điều kiện sử dụng CGM\n- BN đang nằm viện điều trị vì bệnh cấp tính cần theo dõi sát đường huyết\n- Những BN có mong muốn quản lý bệnh ĐTĐ tốt hơn",
+            "metadata": {
+              "section": "PHAN_10",
+              "unit_id": "5481-U058"
+            },
+            "score": 0.7754938006401062,
+            "method": "rerank",
+            "dense_score": 0.6698442686161462
+          },
+          {
+            "id": "B-5481-U012-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 12,
+            "text": "- Nguyên tắc sử dụng thuốc: can thiệp thay đổi lối sống ưu tiên hàng đầu, hạn chế tối đa lượng thuốc dùng, định kỳ kiểm tra tác dụng và tuân thủ thuốc cũ trước khi kê đơn mới, phác đồ phù hợp có thể tuân thủ tốt - tối ưu điều trị, khả thi với BN, có tính yếu tố chi phí và tính sẵn có.\nc) Dịch vụ tư vấn dinh dưỡng, hoạt động thể lực, tự theo dõi, hỗ trợ điều trị nên được triển khai, sẵn sàng cung cấp, hỗ trợ cho bác sỹ điều trị, điều dưỡng, nhân viên y tế, người chăm sóc và BN.\nd) Chất lượng chăm sóc, điều trị BN đái tháo đường cần được thường xuyên giám sát, lượng giá và hiệu chỉnh cho phù hợp 1-2 lần/năm\ne) Các phương pháp điều trị tổng thể bao gồm một số các biện pháp sau:",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U012"
+            },
+            "score": 0.5963525176048279,
+            "method": "rerank",
+            "dense_score": 0.6504560766973637
+          },
+          {
+            "id": "B-5481-U030-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 30,
+            "text": "a) Thay đổi lối sống: Tất cả BN đái tháo đường típ 2 người lớn cần có chế độ ăn uống tốt cho tim mạch và hoạt động thể lực (cường độ trung bình 150 phút hoặc cường độ mạnh 75 phút mỗi tuần) để kiểm soát đường huyết, giảm cân nếu cần và cải thiện các yếu tố nguy cơ tim mạch xơ vữa.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U030"
+            },
+            "score": 0.4521614611148834,
+            "method": "rerank",
+            "dense_score": 0.6708182677680917
+          }
+        ],
+        "context": "[B-5481-U058-003 | 5481_QD-BYT_460925.docx | page 58]\n- HbA1c cao ≥ 7,0% và đường huyết dao động nhiều\n- Muốn hạ HbA1c < 7,0% mà không gây hạ đường huyết (glucose < 3,9mmol/L)\n- Trước và trong khi mang thai, ĐTĐ thai kỳ\n- Bất kể BN nào có HbA1c ≥ 7,0% và có điều kiện sử dụng CGM\n- BN đang nằm viện điều trị vì bệnh cấp tính cần theo dõi sát đường huyết\n- Những BN có mong muốn quản lý bệnh ĐTĐ tốt hơn\n\n[B-5481-U012-002 | 5481_QD-BYT_460925.docx | page 12]\n- Nguyên tắc sử dụng thuốc: can thiệp thay đổi lối sống ưu tiên hàng đầu, hạn chế tối đa lượng thuốc dùng, định kỳ kiểm tra tác dụng và tuân thủ thuốc cũ trước khi kê đơn mới, phác đồ phù hợp có thể tuân thủ tốt - tối ưu điều trị, khả thi với BN, có tính yếu tố chi phí và tính sẵn có.\nc) Dịch vụ tư vấn dinh dưỡng, hoạt động thể lực, tự theo dõi, hỗ trợ điều trị nên được triển khai, sẵn sàng cung cấp, hỗ trợ cho bác sỹ điều trị, điều dưỡng, nhân viên y tế, người chăm sóc và BN.\nd) Chất lượng chăm sóc, điều trị BN đái tháo đường cần được thường xuyên giám sát, lượng giá và hiệu chỉnh cho phù hợp 1-2 lần/năm\ne) Các phương pháp điều trị tổng thể bao gồm một số các biện pháp sau:\n\n[B-5481-U030-003 | 5481_QD-BYT_460925.docx | page 30]\na) Thay đổi lối sống: Tất cả BN đái tháo đường típ 2 người lớn cần có chế độ ăn uống tốt cho tim mạch và hoạt động thể lực (cường độ trung bình 150 phút hoặc cường độ mạnh 75 phút mỗi tuần) để kiểm soát đường huyết, giảm cân nếu cần và cải thiện các yếu tố nguy cơ tim mạch xơ vữa.",
+        "context_ids": [
+          "B-5481-U058-003",
+          "B-5481-U012-002",
+          "B-5481-U030-003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Ức chế SGLT-2 được chỉ định là thuốc hàng thứ hai khi tỷ số albumin/creatinine niệu trên 30 mg/g. [B-5481-U050-003] [B-5481-U049-003]",
+    "citations": [
+      "B-5481-U050-003",
+      "B-5481-U049-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ở người đái tháo đường có bệnh thận, nếu tỷ số albumin/creatinine niệu trên 30 mg/g thì thuốc nào được chỉ định là hàng thứ hai sau metformin?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U050-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 50,
+            "text": "Biến chứng của bệnh thận mạn: 2. Kiểm soát đường huyết chặt chẽ là nền tảng để phòng ngừa và làm chậm biến chứng thận do ĐTĐ. Metformin là thuốc lựa chọn đầu tay trừ khi có chống chỉ định (eGFR < 30mL/ph/1,73m2 da). Ức chế SGLT-2 được chỉ định là thuốc hàng thứ nhì khi có tỷ số A/C > 30 mg/g. Nếu có nguy cơ cao tim mạch kèm theo, đồng vận thụ thể GLP-1 được xem xét chỉ định.",
+            "metadata": {
+              "section": "PHAN_8",
+              "unit_id": "5481-U050"
+            },
+            "score": 0.9924437403678894,
+            "method": "rerank",
+            "dense_score": 0.6970842606820636
+          },
+          {
+            "id": "B-5481-U080-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 80,
+            "text": "DANH MỤC THUỐC THIẾT YẾU ĐIỀU TRỊ ĐÁI THÁO ĐƯỜNG TÍP 2\nCập nhật Gói điều trị thiết yếu cho các bệnh không lây nhiễm (WHO Package of Essential NCD Interventions - WHO PEN) và Thông tư 45/2013/TT-BYT về Danh mục thiết yếu tân dược lần VI để kiểm soát đường huyết cho những người mắc đái tháo đường típ 2 bao gồm: chế độ ăn uống, hoạt động thể chất và metformin là lựa chọn điều trị đầu tay; sulfonylurea là điều trị hàng hai (hoặc điều trị đầu tay nếu metformin chống chỉ định); và insulin là điều trị hàng thứ ba.\nBảng : Danh mục thuốc thiết yếu điều trị ĐTĐ típ 2\nSTT: 1; Tên thuốc: Metformin; Đường dùng: Uống; Dạng bào chế: Viên; Hàm lượng, nồng độ: 500 mg, 850 mg\nSTT: 2; Tên thuốc: Gliclazid; Đường dùng: Uống; Dạng bào chế: Viên; Hàm lượng, nồng độ: 30 mg, 80 mg",
+            "metadata": {
+              "section": "PHU_LUC_03",
+              "unit_id": "5481-U080"
+            },
+            "score": 0.7462000846862793,
+            "method": "rerank",
+            "dense_score": 0.6760860647847469
+          },
+          {
+            "id": "B-5481-U049-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 49,
+            "text": "d) Bệnh nhân ĐTĐ típ 2 mắc kèm bệnh thận do ĐTĐ, cân nhắc sử dụng Ức chế SGLT2 ở BN có độ lọc cầu thận ≥30 mL/phút/1,73m2 và albumin niệu >30 mg/g creatinine, đặc biệt ở những BN có albumin niệu ≥300 mg/g creatinine, để giảm nguy cơ tiến triển bệnh thận mạn và biến cố tim mạch hoặc cả hai.",
+            "metadata": {
+              "section": "PHAN_8",
+              "unit_id": "5481-U049"
+            },
+            "score": 0.7340216040611267,
+            "method": "rerank",
+            "dense_score": 0.7018685455635877
+          }
+        ],
+        "context": "[B-5481-U050-003 | 5481_QD-BYT_460925.docx | page 50]\nBiến chứng của bệnh thận mạn: 2. Kiểm soát đường huyết chặt chẽ là nền tảng để phòng ngừa và làm chậm biến chứng thận do ĐTĐ. Metformin là thuốc lựa chọn đầu tay trừ khi có chống chỉ định (eGFR < 30mL/ph/1,73m2 da). Ức chế SGLT-2 được chỉ định là thuốc hàng thứ nhì khi có tỷ số A/C > 30 mg/g. Nếu có nguy cơ cao tim mạch kèm theo, đồng vận thụ thể GLP-1 được xem xét chỉ định.\n\n[B-5481-U080-001 | 5481_QD-BYT_460925.docx | page 80]\nDANH MỤC THUỐC THIẾT YẾU ĐIỀU TRỊ ĐÁI THÁO ĐƯỜNG TÍP 2\nCập nhật Gói điều trị thiết yếu cho các bệnh không lây nhiễm (WHO Package of Essential NCD Interventions - WHO PEN) và Thông tư 45/2013/TT-BYT về Danh mục thiết yếu tân dược lần VI để kiểm soát đường huyết cho những người mắc đái tháo đường típ 2 bao gồm: chế độ ăn uống, hoạt động thể chất và metformin là lựa chọn điều trị đầu tay; sulfonylurea là điều trị hàng hai (hoặc điều trị đầu tay nếu metformin chống chỉ định); và insulin là điều trị hàng thứ ba.\nBảng : Danh mục thuốc thiết yếu điều trị ĐTĐ típ 2\nSTT: 1; Tên thuốc: Metformin; Đường dùng: Uống; Dạng bào chế: Viên; Hàm lượng, nồng độ: 500 mg, 850…\n\n[B-5481-U049-003 | 5481_QD-BYT_460925.docx | page 49]\nd) Bệnh nhân ĐTĐ típ 2 mắc kèm bệnh thận do ĐTĐ, cân nhắc sử dụng Ức chế SGLT2 ở BN có độ lọc cầu thận ≥30 mL/phút/1,73m2 và albumin niệu >30 mg/g creatinine, đặc biệt ở những BN có albumin niệu ≥300 mg/g creatinine, để giảm nguy cơ tiến triển bệnh thận mạn và biến cố tim mạch hoặc cả hai.",
+        "context_ids": [
+          "B-5481-U050-003",
+          "B-5481-U080-001",
+          "B-5481-U049-003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Những BN đái tháo đường thai kỳ điều trị insulin nên đo đường huyết 6 lần/ngày vào trước và sau ăn 3 bữa chính. Những BN điều trị insulin nhiều mũi hoặc nghén nhiều nên đo thêm đường huyết lúc đi ngủ hoặc nửa đêm. [B-5481-U058-002] [B-5481-U057-002]",
+    "citations": [
+      "B-5481-U058-002",
+      "B-5481-U057-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Trong phần chỉ định theo dõi đường huyết, người đái tháo đường thai kỳ đang điều trị insulin nên đo đường huyết mấy lần mỗi ngày?",
+        "filter": {
+          "section": "PHAN_10"
+        },
+        "results": [
+          {
+            "id": "B-5481-U058-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 58,
+            "text": "BN nên đo thêm khi có các dấu hiệu của hạ đường huyết hoặc khi thay đổi chế độ ăn, chế độ luyện tập. Còn sau khi đường huyết đã được kiểm soát tốt thì có thể giảm bớt số lần đo đường huyết.\n3. Chỉ định cho BN đái tháo đường thai kỳ:\n- Những BN điều trị bằng chế độ ăn: nên đo đường huyết 1 - 2 lần/ngày vào các thời điểm trước ăn sáng, và sau ăn các bữa sáng - trưa - tối. Ưu tiên đo đường huyết sau ăn 1h.\n- Những BN điều trị insulin: nên đo đường huyết 6 lần/ngày vào trước và sau ăn 3 bữa chính. Những BN điều trị insulin nhiều mũi hoặc nghén nhiều nên đo thêm đường huyết lúc đi ngủ hoặc nửa đêm.\n4. Chỉ định đo đường huyết liên tục (continuous glucose monitoring - CGM) cho những BN đái tháo đường:\n- Thường xuyên hạ đường huyết (glucose <3,9 mmol/L) hoặc hạ đường huyết không có triệu chứng",
+            "metadata": {
+              "section": "PHAN_10",
+              "unit_id": "5481-U058"
+            },
+            "score": 0.991134524345398,
+            "method": "rerank",
+            "dense_score": 0.786432342613148
+          },
+          {
+            "id": "B-5481-U057-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 57,
+            "text": "Đối tượng BN: ĐTĐ típ 2 dùng thuốc uống3; Tần xuất đo chính: 2 lần/ ngày, trước ăn sáng và tối.\nNếu ĐH trong 2-3 ngày ổn: Đo 1 lần/ngày; Đo thêm: Có triệu chứng hạ đường huyết\nĐối tượng BN: ĐTĐ típ 2 tiêm 2 mũi insulin hỗn hợp/ngày4; Tần xuất đo chính: 3 lần/ngày, trước 3 bữa ăn. Đo lúc đi ngủ 1-2 lần/ tuần; Đo thêm: Có triệu chứng hạ đường huyết\nĐối tượng BN: ĐTĐ típ 2 tiêm 3-4 mũi insulin/ ngày5; Tần xuất đo chính: Đo 4 lần/ngày, trước 3 bữa ăn và lúc đi ngủ; Đo thêm: Có triệu chứng hạ đường huyết\nĐối tượng BN: Nếu các nhóm BN 1, 2, 3, 4 tiến triển nặng, có nhiễm trùng nặng, có dùng Corticoid, hoặc phải phẫu thuật…thì nên đo ít nhất 4 lần/ngày: trước 3 bữa ăn và lúc đi ngủ\n2. Chỉ định cho BN ngoại trú",
+            "metadata": {
+              "section": "PHAN_10",
+              "unit_id": "5481-U057"
+            },
+            "score": 0.9623731374740601,
+            "method": "rerank",
+            "dense_score": 0.7069476909511441
+          },
+          {
+            "id": "B-5481-U057-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 57,
+            "text": "- Các BN ĐTĐ típ 1 nên được đo đường huyết ít nhất 4 lần/ ngày, vào trước các bữa ăn và lúc đi ngủ.",
+            "metadata": {
+              "section": "PHAN_10",
+              "unit_id": "5481-U057"
+            },
+            "score": 0.9400513172149658,
+            "method": "rerank",
+            "dense_score": 0.7003727613324637
+          }
+        ],
+        "context": "[B-5481-U058-002 | 5481_QD-BYT_460925.docx | page 58]\nBN nên đo thêm khi có các dấu hiệu của hạ đường huyết hoặc khi thay đổi chế độ ăn, chế độ luyện tập. Còn sau khi đường huyết đã được kiểm soát tốt thì có thể giảm bớt số lần đo đường huyết.\n3. Chỉ định cho BN đái tháo đường thai kỳ:\n- Những BN điều trị bằng chế độ ăn: nên đo đường huyết 1 - 2 lần/ngày vào các thời điểm trước ăn sáng, và sau ăn các bữa sáng - trưa - tối. Ưu tiên đo đường huyết sau ăn 1h.\n- Những BN điều trị insulin: nên đo đường huyết 6 lần/ngày vào trước và sau ăn 3 bữa chính. Những BN điều trị insulin nhiều mũi hoặc nghén nhiều nên đo thêm đường huyết lúc đi ngủ hoặc nửa đêm.\n4. Chỉ định đo đường huyết liên tục (continuous glucose monitoring - CGM) cho những BN đái tháo đường:\n- Thường xuyên hạ đường huyết (glucose <3,9 mmol/L) hoặc hạ đường huyết không có triệu chứng\n\n[B-5481-U057-002 | 5481_QD-BYT_460925.docx | page 57]\nĐối tượng BN: ĐTĐ típ 2 dùng thuốc uống3; Tần xuất đo chính: 2 lần/ ngày, trước ăn sáng và tối.\nNếu ĐH trong 2-3 ngày ổn: Đo 1 lần/ngày; Đo thêm: Có triệu chứng hạ đường huyết\nĐối tượng BN: ĐTĐ típ 2 tiêm 2 mũi insulin hỗn hợp/ngày4; Tần xuất đo chính: 3 lần/ngày, trước 3 bữa ăn. Đo lúc đi ngủ 1-2 lần/ tuần; Đo thêm: Có triệu chứng hạ đường huyết\nĐối tượng BN: ĐTĐ típ 2 tiêm 3-4 mũi insulin/ ngày5; Tần xuất đo chính: Đo 4 lần/ngày,…\n\n[B-5481-U057-003 | 5481_QD-BYT_460925.docx | page 57]\n- Các BN ĐTĐ típ 1 nên được đo đường huyết ít nhất 4 lần/ ngày, vào trước các bữa ăn và lúc đi ngủ.",
+        "context_ids": [
+          "B-5481-U058-002",
+          "B-5481-U057-002",
+          "B-5481-U057-003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Không cần tầm soát biến chứng võng mạc cho phụ nữ được chẩn đoán ĐTĐ thai kỳ. [B-5481-U048-003]",
+    "citations": [
+      "B-5481-U048-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Phụ nữ được chẩn đoán đái tháo đường thai kỳ có cần tầm soát biến chứng võng mạc không?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U048-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 48,
+            "text": "KHUYẾN CÁO VỀ BIẾN CHỨNG VÕNG MẠC DO ĐÁI THÁO ĐƯỜNG: 1. Cần tầm soát biến chứng võng mạc cho người bệnh ĐTĐ típ 1 năm năm sau khi chẩn đoán; cần tầm soát biến chứng võng mạc cho người bệnh ĐTĐ típ 2 ngay thời điểm chẩn đoán. Phụ nữ được chẩn đoán ĐTĐ típ 1 và típ 2 cần được tầm soát biến chứng võng mạc trước khi có thai hay chuẩn bị mang thai. Không cần tầm soát biến chứng võng mạc cho phụ nữ được chẩn đoán ĐTĐ thai kỳ.",
+            "metadata": {
+              "section": "PHAN_8",
+              "unit_id": "5481-U048"
+            },
+            "score": 0.9985039234161377,
+            "method": "rerank",
+            "dense_score": 0.7444606536073793
+          },
+          {
+            "id": "B-5481-U004-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 4,
+            "text": "- Phụ nữ có tiền sử đái tháo đường thai kỳ, sau đó được phát hiện có tiền đái tháo đường: cần được điều trị can thiệp lối sống tích cực và metformin để phòng ngừa đái tháo đường.\nc) Tầm soát và chẩn đoán đái tháo đường thai kỳ: Hiện tại ở Việt Nam có thể thực hiện phương pháp 1 bước như sau:\nThực hiện nghiệm pháp dung nạp glucose đường uống 75g (75-g OGTT): đo nồng độ glucose huyết tương lúc đói và tại thời điểm 1 giờ, 2 giờ, ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó. Nghiệm pháp dung nạp glucose bằng đường uống phải được thực hiện vào buổi sáng sau khi nhịn đói qua đêm ít nhất là 8 giờ. Chẩn đoán đái tháo đường thai kỳ khi bất kỳ giá trị glucose huyết tương nào thỏa mãn tiêu chuẩn sau đây:\n- Lúc đói ≥ 92 mg/dL (5,1 mmol/L)",
+            "metadata": {
+              "section": "PHAN_2",
+              "unit_id": "5481-U004"
+            },
+            "score": 0.562771201133728,
+            "method": "rerank",
+            "dense_score": 0.6565240940342265
+          },
+          {
+            "id": "B-5481-U004-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 4,
+            "text": "- Thực hiện xét nghiệm chẩn đoán ĐTĐ thai kỳ ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó.\n- Thực hiện xét nghiệm để chẩn đoán đái tháo đường thật sự (bền vững): ở phụ nữ có đái tháo đường thai kỳ, sau khi sinh từ 4 đến 12 tuần. Dùng nghiệm pháp dung nạp glucose đường uống và áp dụng các tiêu chuẩn chẩn đoán dành cho người trưởng thành không mang thai. Sử dụng các tiêu chuẩn chẩn đoán đái tháo đường tại điểm a, b, d của điểm 1.1 - Mục 1. Chẩn đoán (không áp dụng tiêu chuẩn về HbA1c).\n- Ở phụ nữ có tiền sử đái tháo đường thai kỳ nên thực hiện xét nghiệm phát hiện sớm ĐTĐ hay tiền ĐTĐ ít nhất mỗi 1- 3 năm một lần.",
+            "metadata": {
+              "section": "PHAN_2",
+              "unit_id": "5481-U004"
+            },
+            "score": 0.06258333474397659,
+            "method": "rerank",
+            "dense_score": 0.6444701181718577
+          }
+        ],
+        "context": "[B-5481-U048-003 | 5481_QD-BYT_460925.docx | page 48]\nKHUYẾN CÁO VỀ BIẾN CHỨNG VÕNG MẠC DO ĐÁI THÁO ĐƯỜNG: 1. Cần tầm soát biến chứng võng mạc cho người bệnh ĐTĐ típ 1 năm năm sau khi chẩn đoán; cần tầm soát biến chứng võng mạc cho người bệnh ĐTĐ típ 2 ngay thời điểm chẩn đoán. Phụ nữ được chẩn đoán ĐTĐ típ 1 và típ 2 cần được tầm soát biến chứng võng mạc trước khi có thai hay chuẩn bị mang thai. Không cần tầm soát biến chứng võng mạc cho phụ nữ được chẩn đoán ĐTĐ thai kỳ.\n\n[B-5481-U004-002 | 5481_QD-BYT_460925.docx | page 4]\n- Phụ nữ có tiền sử đái tháo đường thai kỳ, sau đó được phát hiện có tiền đái tháo đường: cần được điều trị can thiệp lối sống tích cực và metformin để phòng ngừa đái tháo đường.\nc) Tầm soát và chẩn đoán đái tháo đường thai kỳ: Hiện tại ở Việt Nam có thể thực hiện phương pháp 1 bước như sau:\nThực hiện nghiệm pháp dung nạp glucose đường uống 75g (75-g OGTT): đo nồng độ glucose huyết tương lúc đói và tại thời điểm 1 giờ, 2 giờ, ở tuần thứ 24 đến 28 của…\n\n[B-5481-U004-001 | 5481_QD-BYT_460925.docx | page 4]\n- Thực hiện xét nghiệm chẩn đoán ĐTĐ thai kỳ ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó.\n- Thực hiện xét nghiệm để chẩn đoán đái tháo đường thật sự (bền vững): ở phụ nữ có đái tháo đường thai kỳ, sau khi sinh từ 4 đến 12 tuần. Dùng nghiệm pháp dung nạp glucose đường uống và áp dụng các tiêu chuẩn chẩn đoán dành cho người trưởng thành không mang thai. Sử dụng các tiêu chuẩn chẩn đoán đái tháo…",
+        "context_ids": [
+          "B-5481-U048-003",
+          "B-5481-U004-002",
+          "B-5481-U004-001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Người đái tháo đường nên hoãn buổi tập thể dục khi đường huyết cao do ngưng insulin và có ceton, cho tới khi dùng đủ insulin và hết ceton. [B-5481-U022-003]",
+    "citations": [
+      "B-5481-U022-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Khi nào người đái tháo đường nên hoãn buổi tập thể dục vì đường huyết nằm ngoài khoảng an toàn?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U022-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 22,
+            "text": "d) Thể dục khi đường huyết cao\n- Trên đái tháo đường típ 1 có đường huyết cao do ngưng insulin và có ceton, thể dục có thể làm đường huyết tăng thêm. Không nên thể dục trong trường hợp này cho tới khi dùng đủ insulin và hết ceton.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U022"
+            },
+            "score": 0.07271717488765717,
+            "method": "rerank",
+            "dense_score": 0.7327972213746786
+          },
+          {
+            "id": "B-5481-U022-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 22,
+            "text": "- Thể dục không làm nặng lên biến chứng võng mạc không tăng sinh. Tuy nhiên, với BN có biến chứng võng mạc tăng sinh, nên tránh các hoạt động làm tăng huyết áp nhiều như cử tạ, thể thao đối kháng mạnh, vì các hoạt động này làm tăng khả năng xuất huyết dịch kính và bong võng mạc.\nc) Tác dụng của thuốc đái tháo đường và thể dục\n- Bệnh đang dùng insulin hoặc thuốc kích thích tiết insulin, hoạt động thể lực làm tăng nguy cơ hạ đường huyết. Do đó cần chú ý theo dõi đường huyết trước và sau tập.\n- Để ngăn ngừa hạ đường huyết: cần giảm liều insulin, thuốc kích thích tiết insulin trước tập hoặc ăn thêm carbohydrate trước và trong khi tập thể lực.\n- Nếu đường huyết thấp cần ăn thêm carbohydrate trước, trong lúc tập.\n- Cần giáo dục BN xử trí hạ đường huyết do tập thể dục.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U022"
+            },
+            "score": 0.01582745835185051,
+            "method": "rerank",
+            "dense_score": 0.6965750663451873
+          },
+          {
+            "id": "B-5481-U023-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 23,
+            "text": "- Loại hình luyện tập thông dụng và dễ áp dụng nhất: đi bộ tổng cộng 150 phút mỗi tuần (hoặc 30 phút mỗi ngày), không nên ngưng luyện tập 2 ngày liên tiếp. Mỗi tuần nên tập kháng lực 2-3 lần (kéo dây thun, nâng tạ).\n- Có thể thay thế bằng cách chia nhỏ thời gian tập thể dục trong ngày. Ví dụ: đi bộ sau 3 bữa ăn, mỗi lần 10-15 phút.\n- Những hoạt động tăng tiêu thụ năng lượng hàng ngày có lợi cho kiểm soát đái tháo đường: làm vườn, đi bộ lên cầu thang, lau nhà,…\n- Tránh ngồi kéo dài và mỗi 20 tới 30 phút nên đứng dậy đi lại.\n- Một số hình thức thể dục khác có lợi ích như thể dục dưới nước phù hợp với người bị thoái hóa khớp: bơi lội, đi bộ nhanh trong nước.\n5. 2. Dinh dưỡng\n5.2.1. Nguyên tắc cơ bản trong chế độ ăn bệnh Đái tháo đường.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U023"
+            },
+            "score": 0.009413749910891056,
+            "method": "rerank",
+            "dense_score": 0.6705145436218665
+          }
+        ],
+        "context": "[B-5481-U022-003 | 5481_QD-BYT_460925.docx | page 22]\nd) Thể dục khi đường huyết cao\n- Trên đái tháo đường típ 1 có đường huyết cao do ngưng insulin và có ceton, thể dục có thể làm đường huyết tăng thêm. Không nên thể dục trong trường hợp này cho tới khi dùng đủ insulin và hết ceton.\n\n[B-5481-U022-002 | 5481_QD-BYT_460925.docx | page 22]\n- Thể dục không làm nặng lên biến chứng võng mạc không tăng sinh. Tuy nhiên, với BN có biến chứng võng mạc tăng sinh, nên tránh các hoạt động làm tăng huyết áp nhiều như cử tạ, thể thao đối kháng mạnh, vì các hoạt động này làm tăng khả năng xuất huyết dịch kính và bong võng mạc.\nc) Tác dụng của thuốc đái tháo đường và thể dục\n- Bệnh đang dùng insulin hoặc thuốc kích thích tiết insulin, hoạt động thể lực làm tăng nguy cơ hạ đường huyết. Do đó cần chú ý theo dõi đường huyết trước và sau tập.\n- Để ngăn ngừa hạ đường huyết: cần giảm liều insulin,…\n\n[B-5481-U023-002 | 5481_QD-BYT_460925.docx | page 23]\n- Loại hình luyện tập thông dụng và dễ áp dụng nhất: đi bộ tổng cộng 150 phút mỗi tuần (hoặc 30 phút mỗi ngày), không nên ngưng luyện tập 2 ngày liên tiếp. Mỗi tuần nên tập kháng lực 2-3 lần (kéo dây thun, nâng tạ).\n- Có thể thay thế bằng cách chia nhỏ thời gian tập thể dục trong ngày. Ví dụ: đi bộ sau 3 bữa ăn, mỗi lần 10-15 phút.\n- Những hoạt động tăng tiêu thụ năng lượng hàng ngày có lợi cho kiểm soát đái tháo đường: làm vườn, đi bộ lên cầu thang, lau nhà,…\n- Tránh ngồi kéo dài và mỗi 20 tới 30 phút nên đứng dậy đi lại.\n- Một số hình thức…",
+        "context_ids": [
+          "B-5481-U022-003",
+          "B-5481-U022-002",
+          "B-5481-U023-002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Nếu tiêm Insulin NPH, 2 mũi tiêm nên cách nhau 11-12 giờ để tránh hiện tượng chồng liều. Nếu tiêm glargine, detemir hoặc Degludec nên tiêm vào giờ cố định mỗi ngày vào buổi sáng, hoặc buổi tối. [B-5481-U019-001]",
+    "citations": [
+      "B-5481-U019-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Để hai liều insulin trung gian trong ngày không bị cộng dồn tác dụng, nên chọn khoảng cách giữa hai mũi tiêm là bao nhiêu?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U019-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 19,
+            "text": "- Khi đã điều chỉnh liều insulin nền đạt được mục tiêu glucose huyết đói nhưng HbA1c vẫn chưa đạt mục tiêu, xem xét thêm insulin nhanh trước bữa ăn. Một cách khác có thể xem xét là chuyển sang insulin hỗn hợp tiêm dưới da 2 lần mỗi ngày. Nếu vẫn không đạt được mục tiêu, có thể xem xét chuyển sang insulin nền - insulin nhanh trước mỗi bữa ăn (basal-bolus).\n- Liều khởi trị với insulin nền: insulin người như NPH (tiêm 1-2 lần/ ngày) hay insulin analog như glargine, detemir (tiêm 1 lần/ngày), Degludec (tiêm 1 lần/ngày liều khởi đầu là 10 đơn vị tiêm dưới da)\n- Nếu tiêm Insulin NPH, 2 mũi tiêm nên cách nhau 11-12 giờ để tránh hiện tượng chồng liều. Nếu tiêm glargine, detemir hoặc Degludec nên tiêm vào giờ cố định mỗi ngày vào buổi sáng, hoặc buổi tối",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U019"
+            },
+            "score": 0.5007582306861877,
+            "method": "rerank",
+            "dense_score": 0.6633762132968564
+          },
+          {
+            "id": "B-5481-U078-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 78,
+            "text": "6. Cách sử dụng insulin\n- Insulin là thuốc có tác dụng hạ glucose máu mạnh nhất. Không có giới hạn trong việc giảm HbA1c.\n- Không có giới hạn liều insulin.\n- Insulin chỉ được tiêm dưới da (ngoại trừ trường hợp cấp cứu), vị trí tiêm là ở bụng, phần trên cánh tay, đùi. Insulin được hấp thu thay đổi tùy tình trạng BN vị trí tiêm.\n- Trường hợp cấp cứu hôn mê do nhiễm ceton acid, tăng áp lực thẩm thấu máu, lúc phẫu thuật, Regular insulin (Insulin thường) được sử dụng để truyền tĩnh mạch.\n- Dùng phối hợp với thuốc viên: liều khởi đầu của insulin nền (dùng insulin tác dụng trung bình hay tác dụng dài) là 0,1 - 0,2 đơn vị/kg cân nặng, tiêm dưới da vào buổi tối trước khi đi ngủ hoặc vào một giờ nhất định trong ngày.",
+            "metadata": {
+              "section": "PHU_LUC_02",
+              "unit_id": "5481-U078"
+            },
+            "score": 0.2476249486207962,
+            "method": "rerank",
+            "dense_score": 0.6344618912475903
+          },
+          {
+            "id": "B-5481-U020-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 20,
+            "text": "+ Điều chỉnh liều: tăng liều 10 - 15% hay tăng 1 - 2 đơn vị mỗi 1 hoặc 2 lần mỗi tuần cho đến khi đạt mục tiêu đường huyết lúc đói.\n+ Hạ đường huyết: xác định nguyên nhân hạ đường huyết, nếu không có nguyên nhân rõ ràng, giảm liều insulin 2 - 4 đơn vị hay giảm 10 - 20%.\n- BN đang điều trị insulin nền trước đó: liều khởi đầu bằng liều insulin nền trước đó, chia thành 2/3 buổi sáng, 1/3 buổi chiều HOẶC 1/2 buổi sáng, 1/2 buổi chiều\n- BN chưa điều trị insulin nền: liều khởi đầu theo thông tin kê toa được Bộ y tế phê duyệt. Nếu dùng 2 lần/ngày: chia thành 2/3 buổi sáng, 1/3 buổi chiều HOẶC 1/2 buổi sáng, 1/2 buổi chiều tiêm ngay trước hoặc ngay sau khi ăn (đối với insulin analog).",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U020"
+            },
+            "score": 0.15571051836013794,
+            "method": "rerank",
+            "dense_score": 0.6397340394017964
+          }
+        ],
+        "context": "[B-5481-U019-001 | 5481_QD-BYT_460925.docx | page 19]\n- Khi đã điều chỉnh liều insulin nền đạt được mục tiêu glucose huyết đói nhưng HbA1c vẫn chưa đạt mục tiêu, xem xét thêm insulin nhanh trước bữa ăn. Một cách khác có thể xem xét là chuyển sang insulin hỗn hợp tiêm dưới da 2 lần mỗi ngày. Nếu vẫn không đạt được mục tiêu, có thể xem xét chuyển sang insulin nền - insulin nhanh trước mỗi bữa ăn (basal-bolus).\n- Liều khởi trị với insulin nền: insulin người như NPH (tiêm 1-2 lần/ ngày) hay insulin analog như glargine, detemir (tiêm 1 lần/ngày), Degludec (tiêm 1 lần/ngày liều khởi đầu là 10 đơn vị tiêm dưới da)\n- Nếu tiêm Insulin NPH, 2 mũi tiêm nên cách nhau 11-12 giờ để tránh hiện tượng chồng liều. Nếu tiêm glargine, detemir hoặc Degludec nên tiêm vào giờ cố định mỗi ngày vào buổi sáng, hoặc buổi tối\n\n[B-5481-U078-001 | 5481_QD-BYT_460925.docx | page 78]\n6. Cách sử dụng insulin\n- Insulin là thuốc có tác dụng hạ glucose máu mạnh nhất. Không có giới hạn trong việc giảm HbA1c.\n- Không có giới hạn liều insulin.\n- Insulin chỉ được tiêm dưới da (ngoại trừ trường hợp cấp cứu), vị trí tiêm là ở bụng, phần trên cánh tay, đùi. Insulin được hấp thu…\n\n[B-5481-U020-001 | 5481_QD-BYT_460925.docx | page 20]\n+ Điều chỉnh liều: tăng liều 10 - 15% hay tăng 1 - 2 đơn vị mỗi 1 hoặc 2 lần mỗi tuần cho đến khi đạt mục tiêu đường huyết lúc đói.\n+ Hạ đường huyết: xác định nguyên nhân hạ đường huyết, nếu không có nguyên nhân rõ ràng, giảm liều insulin 2 - 4 đơn vị hay giảm 10 - 20%.\n- BN đang điều…",
+        "context_ids": [
+          "B-5481-U019-001",
+          "B-5481-U078-001",
+          "B-5481-U020-001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Sau sinh nên thực hiện xét nghiệm để xác định đái tháo đường thật sự ở phụ nữ từng bị đái tháo đường thai kỳ trong thời gian từ 4 đến 12 tuần sau khi sinh. [B-5481-U004-001]",
+    "citations": [
+      "B-5481-U004-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Sau sinh bao lâu thì nên làm lại xét nghiệm để xác định đái tháo đường thật sự ở phụ nữ từng bị đái tháo đường thai kỳ?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U004-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 4,
+            "text": "- Thực hiện xét nghiệm chẩn đoán ĐTĐ thai kỳ ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó.\n- Thực hiện xét nghiệm để chẩn đoán đái tháo đường thật sự (bền vững): ở phụ nữ có đái tháo đường thai kỳ, sau khi sinh từ 4 đến 12 tuần. Dùng nghiệm pháp dung nạp glucose đường uống và áp dụng các tiêu chuẩn chẩn đoán dành cho người trưởng thành không mang thai. Sử dụng các tiêu chuẩn chẩn đoán đái tháo đường tại điểm a, b, d của điểm 1.1 - Mục 1. Chẩn đoán (không áp dụng tiêu chuẩn về HbA1c).\n- Ở phụ nữ có tiền sử đái tháo đường thai kỳ nên thực hiện xét nghiệm phát hiện sớm ĐTĐ hay tiền ĐTĐ ít nhất mỗi 1- 3 năm một lần.",
+            "metadata": {
+              "section": "PHAN_2",
+              "unit_id": "5481-U004"
+            },
+            "score": 0.9973700046539307,
+            "method": "rerank",
+            "dense_score": 0.7700260281562805
+          },
+          {
+            "id": "B-5481-U003-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 3,
+            "text": "d) Nếu các kết quả bình thường, xét nghiệm sẽ được làm lại trong vòng 1- 3 năm sau hoặc ngắn hơn tùy theo kết quả ban đầu và các yếu tố nguy cơ.\n1.3. Phát hiện và chẩn đoán đái tháo đường thai kỳ\na) Khái niệm: ĐTĐ thai kỳ là ĐTĐ được chẩn đoán trong 3 tháng giữa hoặc 3 tháng cuối của thai kỳ và không có bằng chứng về ĐTĐ típ 1, ĐTĐ típ 2 trước đó. Nếu phụ nữ có thai 3 tháng đầu được phát hiện tăng glucose huyết thì xếp loại là ĐTĐ chưa được chẩn đoán/chưa được phát hiện hoặc ĐTĐ trước mang thai và dùng tiêu chí chẩn đoán như ở người không có thai.\nb) Thời điểm tầm soát đái tháo đường thai kỳ",
+            "metadata": {
+              "section": "PHAN_2",
+              "unit_id": "5481-U003"
+            },
+            "score": 0.9527601003646851,
+            "method": "rerank",
+            "dense_score": 0.746490910858459
+          },
+          {
+            "id": "B-5481-U004-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 4,
+            "text": "- Phụ nữ có tiền sử đái tháo đường thai kỳ, sau đó được phát hiện có tiền đái tháo đường: cần được điều trị can thiệp lối sống tích cực và metformin để phòng ngừa đái tháo đường.\nc) Tầm soát và chẩn đoán đái tháo đường thai kỳ: Hiện tại ở Việt Nam có thể thực hiện phương pháp 1 bước như sau:\nThực hiện nghiệm pháp dung nạp glucose đường uống 75g (75-g OGTT): đo nồng độ glucose huyết tương lúc đói và tại thời điểm 1 giờ, 2 giờ, ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó. Nghiệm pháp dung nạp glucose bằng đường uống phải được thực hiện vào buổi sáng sau khi nhịn đói qua đêm ít nhất là 8 giờ. Chẩn đoán đái tháo đường thai kỳ khi bất kỳ giá trị glucose huyết tương nào thỏa mãn tiêu chuẩn sau đây:\n- Lúc đói ≥ 92 mg/dL (5,1 mmol/L)",
+            "metadata": {
+              "section": "PHAN_2",
+              "unit_id": "5481-U004"
+            },
+            "score": 0.8347785472869873,
+            "method": "rerank",
+            "dense_score": 0.704225480556488
+          }
+        ],
+        "context": "[B-5481-U004-001 | 5481_QD-BYT_460925.docx | page 4]\n- Thực hiện xét nghiệm chẩn đoán ĐTĐ thai kỳ ở tuần thứ 24 đến 28 của thai kỳ đối với những thai phụ không được chẩn đoán đái tháo đường trước đó.\n- Thực hiện xét nghiệm để chẩn đoán đái tháo đường thật sự (bền vững): ở phụ nữ có đái tháo đường thai kỳ, sau khi sinh từ 4 đến 12 tuần. Dùng nghiệm pháp dung nạp glucose đường uống và áp dụng các tiêu chuẩn chẩn đoán dành cho người trưởng thành không mang thai. Sử dụng các tiêu chuẩn chẩn đoán đái tháo đường tại điểm a, b, d của điểm 1.1 - Mục 1. Chẩn đoán (không áp dụng tiêu chuẩn về HbA1c).\n- Ở phụ nữ có tiền sử đái tháo đường thai kỳ nên thực hiện xét nghiệm phát hiện sớm ĐTĐ hay tiền ĐTĐ ít nhất mỗi 1- 3 năm một lần.\n\n[B-5481-U003-002 | 5481_QD-BYT_460925.docx | page 3]\nd) Nếu các kết quả bình thường, xét nghiệm sẽ được làm lại trong vòng 1- 3 năm sau hoặc ngắn hơn tùy theo kết quả ban đầu và các yếu tố nguy cơ.\n1.3. Phát hiện và chẩn đoán đái tháo đường thai kỳ\na) Khái niệm: ĐTĐ thai kỳ là ĐTĐ được chẩn đoán trong 3 tháng giữa hoặc 3 tháng cuối của thai kỳ và không có bằng chứng về ĐTĐ típ 1,…\n\n[B-5481-U004-002 | 5481_QD-BYT_460925.docx | page 4]\n- Phụ nữ có tiền sử đái tháo đường thai kỳ, sau đó được phát hiện có tiền đái tháo đường: cần được điều trị can thiệp lối sống tích cực và metformin để phòng ngừa đái tháo đường.\nc) Tầm soát và chẩn đoán đái tháo đường thai kỳ: Hiện tại ở Việt Nam có thể thực hiện phương pháp 1 bước như sau:\nThực hiện nghiệm pháp dung nạp…",
+        "context_ids": [
+          "B-5481-U004-001",
+          "B-5481-U003-002",
+          "B-5481-U004-002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Theo hướng dẫn, nếu kali máu < 3,3 mmol/L, cần bù dịch và kali trước khi điều trị insulin. Do đó, với kali máu 3,0 mmol/L, bệnh nhân cần bù dịch và bổ sung kali trước khi bắt đầu truyền insulin. [B-5481-U046-001]",
+    "citations": [
+      "B-5481-U046-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Bệnh nhân nhiễm toan ketone có kali máu 3,0 mmol/L thì cần làm gì trước khi bắt đầu truyền insulin?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U046-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 46,
+            "text": "Sử dụng insulin regular\na) Nên điều trị insulin regular tĩnh mạch cho tất cả những BN đái tháo đường có nhiễm toan ketone hay tăng áp lực thẩm thấu mức độ vừa đến nặng có kali máu ≥ 3,3 mmol/L. Nếu kali máu < 3,3 mmol/L nên bù dịch và kali trước khi điều trị insulin.\nb) Bắt đầu bằng tiêm tĩnh mạch 1 mũi insulin regular 0,1 UI/kg, sau đó truyền tĩnh mạch liên tục insulin regular 0,1UI/kg/h. Nếu đường huyết chỉ giảm < 50mg/dL trong giờ đầu thì có thể tăng (gấp đôi) liều mỗi giờ cho tới khi đường huyết giảm đến mức này.\nc) Khi đường huyết giảm xuống 200mg/dL (11 mmol/L) ở BN nhiễm toan ketone hay 250 mg/dL (14 mmol/L) ở BN tăng áp lực thẩm thấu thì chuyển sang truyền glucose 5% + NaCl 0,9% và đồng thời giảm tốc độ truyền insulin xuống 0,02 - 0,05 UI/kg/h.",
+            "metadata": {
+              "section": "PHAN_7",
+              "unit_id": "5481-U046"
+            },
+            "score": 0.49880582094192505,
+            "method": "rerank",
+            "dense_score": 0.7247466133404695
+          },
+          {
+            "id": "B-5481-U041-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 41,
+            "text": "Các xét nghiệm cần làm ban đầu gồm sinh hóa máu (Glucose, điện giải đồ, ure và creatinin máu), công thức máu, ketone niệu và/hoặc ketone máu, khí máu động mạch và điện tâm đồ. Các xét nghiệm khác có thể cần làm tùy BN cụ thể: cấy nước tiểu/máu/đờm, amylase máu, chụp XQ phổi, HbA1C. Kết quả:\n- Đường huyết tăng ở BN có tăng áp lực thẩm thấu nhiều hơn BN có nhiễm toan ketone. BN đái tháo đường nhiễm toan ketone do thuốc ức chế SGLT-2 có thể có đường huyết bình thường\n- Phát hiện ketone niệu (acid acetoacetic) bằng test nitroprusside. Xét nghiệm ketone máu tăng, đo trực tiếp acid beta-hydroxybutyrate có giá trị hơn.",
+            "metadata": {
+              "section": "PHAN_7",
+              "unit_id": "5481-U041"
+            },
+            "score": 0.09072911739349365,
+            "method": "rerank",
+            "dense_score": 0.6408916850075586
+          },
+          {
+            "id": "B-5481-U045-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 45,
+            "text": "g) Khi đường huyết xuống 250mg/dL (14,0 mmol/L) ở BN tăng áp lực thẩm thấu hoặc 200mg/dL (11,0 mmol/L) ở BN nhiễm toan ketone thì cần truyền thêm glucose 5%.\nh) Đánh giá bù đủ dịch dựa vào theo dõi huyết động và xét nghiệm. Mục tiêu là điều chỉnh lượng dịch thiếu ước tính trong vòng 24h.\n4.3. Bù Kali\nTùy thuộc nồng độ Kali máu ban đầu:\na) Kali máu < 3,3 mmol/L: truyền tĩnh mạch kali chloride (KCl) 20-40 mmol/h, thường pha 20-40mmol trong 1L muối NaCl. Xét nghiệm kali máu hàng giờ.\nb) Kali máu từ 3,3 - 5,3 mmol/L: pha truyền KCl 20-30 mmol trong 1L muối NaCl và duy trì cho đến khi nồng độ kali máu lên đến 4-5 mmol/L.\nc) Kali máu > 5,3 mmol/L: tạm chưa bù Kali.\nd) Bù kali cần thận trọng khi có giảm chức năng thận và nước tiểu ít < 50mL/h.\n4.4. Insulin",
+            "metadata": {
+              "section": "PHAN_7",
+              "unit_id": "5481-U045"
+            },
+            "score": 0.08964050561189651,
+            "method": "rerank",
+            "dense_score": 0.736878222523667
+          }
+        ],
+        "context": "[B-5481-U046-001 | 5481_QD-BYT_460925.docx | page 46]\nSử dụng insulin regular\na) Nên điều trị insulin regular tĩnh mạch cho tất cả những BN đái tháo đường có nhiễm toan ketone hay tăng áp lực thẩm thấu mức độ vừa đến nặng có kali máu ≥ 3,3 mmol/L. Nếu kali máu < 3,3 mmol/L nên bù dịch và kali trước khi điều trị insulin.\nb) Bắt đầu bằng tiêm tĩnh mạch 1 mũi insulin regular 0,1 UI/kg, sau đó truyền tĩnh mạch liên tục insulin regular 0,1UI/kg/h. Nếu đường huyết chỉ giảm < 50mg/dL trong giờ đầu thì có thể tăng (gấp đôi) liều mỗi giờ cho tới khi đường huyết giảm đến mức này.\nc) Khi đường huyết giảm xuống 200mg/dL (11 mmol/L) ở BN nhiễm toan ketone hay 250 mg/dL (14 mmol/L) ở BN tăng áp lực thẩm thấu thì chuyển sang truyền glucose 5% + NaCl 0,9% và đồng thời giảm tốc độ truyền insulin xuống 0,02 - 0,05 UI/kg/h.\n\n[B-5481-U041-002 | 5481_QD-BYT_460925.docx | page 41]\nCác xét nghiệm cần làm ban đầu gồm sinh hóa máu (Glucose, điện giải đồ, ure và creatinin máu), công thức máu, ketone niệu và/hoặc ketone máu, khí máu động mạch và điện tâm đồ. Các xét nghiệm khác có thể cần làm tùy BN cụ thể: cấy nước tiểu/máu/đờm, amylase máu, chụp XQ phổi, HbA1C.…\n\n[B-5481-U045-002 | 5481_QD-BYT_460925.docx | page 45]\ng) Khi đường huyết xuống 250mg/dL (14,0 mmol/L) ở BN tăng áp lực thẩm thấu hoặc 200mg/dL (11,0 mmol/L) ở BN nhiễm toan ketone thì cần truyền thêm glucose 5%.\nh) Đánh giá bù đủ dịch dựa vào theo dõi huyết động và xét nghiệm. Mục tiêu là điều chỉnh lượng dịch thiếu ước tính trong vòng…",
+        "context_ids": [
+          "B-5481-U046-001",
+          "B-5481-U041-002",
+          "B-5481-U045-002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Cần truyền glucose 5% khi đường huyết xuống 200mg/dL (11,0 mmol/L) ở bệnh nhân nhiễm toan ketone. [B-5481-U045-002]",
+    "citations": [
+      "B-5481-U045-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ở người đang điều trị nhiễm toan ketone, đường huyết xuống đến mức nào thì cần bổ sung dung dịch glucose 5%?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U045-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 45,
+            "text": "g) Khi đường huyết xuống 250mg/dL (14,0 mmol/L) ở BN tăng áp lực thẩm thấu hoặc 200mg/dL (11,0 mmol/L) ở BN nhiễm toan ketone thì cần truyền thêm glucose 5%.\nh) Đánh giá bù đủ dịch dựa vào theo dõi huyết động và xét nghiệm. Mục tiêu là điều chỉnh lượng dịch thiếu ước tính trong vòng 24h.\n4.3. Bù Kali\nTùy thuộc nồng độ Kali máu ban đầu:\na) Kali máu < 3,3 mmol/L: truyền tĩnh mạch kali chloride (KCl) 20-40 mmol/h, thường pha 20-40mmol trong 1L muối NaCl. Xét nghiệm kali máu hàng giờ.\nb) Kali máu từ 3,3 - 5,3 mmol/L: pha truyền KCl 20-30 mmol trong 1L muối NaCl và duy trì cho đến khi nồng độ kali máu lên đến 4-5 mmol/L.\nc) Kali máu > 5,3 mmol/L: tạm chưa bù Kali.\nd) Bù kali cần thận trọng khi có giảm chức năng thận và nước tiểu ít < 50mL/h.\n4.4. Insulin",
+            "metadata": {
+              "section": "PHAN_7",
+              "unit_id": "5481-U045"
+            },
+            "score": 0.9972420930862427,
+            "method": "rerank",
+            "dense_score": 0.7418569816393443
+          },
+          {
+            "id": "B-5481-U046-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 46,
+            "text": "Sử dụng insulin regular\na) Nên điều trị insulin regular tĩnh mạch cho tất cả những BN đái tháo đường có nhiễm toan ketone hay tăng áp lực thẩm thấu mức độ vừa đến nặng có kali máu ≥ 3,3 mmol/L. Nếu kali máu < 3,3 mmol/L nên bù dịch và kali trước khi điều trị insulin.\nb) Bắt đầu bằng tiêm tĩnh mạch 1 mũi insulin regular 0,1 UI/kg, sau đó truyền tĩnh mạch liên tục insulin regular 0,1UI/kg/h. Nếu đường huyết chỉ giảm < 50mg/dL trong giờ đầu thì có thể tăng (gấp đôi) liều mỗi giờ cho tới khi đường huyết giảm đến mức này.\nc) Khi đường huyết giảm xuống 200mg/dL (11 mmol/L) ở BN nhiễm toan ketone hay 250 mg/dL (14 mmol/L) ở BN tăng áp lực thẩm thấu thì chuyển sang truyền glucose 5% + NaCl 0,9% và đồng thời giảm tốc độ truyền insulin xuống 0,02 - 0,05 UI/kg/h.",
+            "metadata": {
+              "section": "PHAN_7",
+              "unit_id": "5481-U046"
+            },
+            "score": 0.8800251483917236,
+            "method": "rerank",
+            "dense_score": 0.6943296682127916
+          },
+          {
+            "id": "B-5481-U047-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 47,
+            "text": "a) Chỉ định: BN đái tháo đường nhiễm toan ketone khi hết nhiễm toan và ăn được. Còn với BN đái tháo đường có tăng áp lực thẩm thấu thì có thể giảm liều insulin tĩnh mạch và chuyển tiêm insulin dưới da khi đường huyết xuống dưới 250/dL (14 mmol/L)\nb) Cách tính liều insulin tiêm dưới da = 70% của tổng liều insulin truyền tĩnh mạch trong 24 giờ (lấy tổng liều insulin trong 6 giờ gần nhất nhân với 4). Nên tiêm\ntheo phác đồ nhiều mũi (basal - bolus), trong đó insulin nền chiếm khoảng 40- 50% tổng liều.",
+            "metadata": {
+              "section": "PHAN_7",
+              "unit_id": "5481-U047"
+            },
+            "score": 0.251709908246994,
+            "method": "rerank",
+            "dense_score": 0.6962863520301679
+          }
+        ],
+        "context": "[B-5481-U045-002 | 5481_QD-BYT_460925.docx | page 45]\ng) Khi đường huyết xuống 250mg/dL (14,0 mmol/L) ở BN tăng áp lực thẩm thấu hoặc 200mg/dL (11,0 mmol/L) ở BN nhiễm toan ketone thì cần truyền thêm glucose 5%.\nh) Đánh giá bù đủ dịch dựa vào theo dõi huyết động và xét nghiệm. Mục tiêu là điều chỉnh lượng dịch thiếu ước tính trong vòng 24h.\n4.3. Bù Kali\nTùy thuộc nồng độ Kali máu ban đầu:\na) Kali máu < 3,3 mmol/L: truyền tĩnh mạch kali chloride (KCl) 20-40 mmol/h, thường pha 20-40mmol trong 1L muối NaCl. Xét nghiệm kali máu hàng giờ.\nb) Kali máu từ 3,3 - 5,3 mmol/L: pha truyền KCl 20-30 mmol trong 1L muối NaCl và duy trì cho đến khi nồng độ kali máu lên đến 4-5 mmol/L.\nc) Kali máu > 5,3 mmol/L: tạm chưa bù Kali.\nd) Bù kali cần thận trọng khi có giảm chức năng thận và nước tiểu ít < 50mL/h.\n4.4. Insulin\n\n[B-5481-U046-001 | 5481_QD-BYT_460925.docx | page 46]\nSử dụng insulin regular\na) Nên điều trị insulin regular tĩnh mạch cho tất cả những BN đái tháo đường có nhiễm toan ketone hay tăng áp lực thẩm thấu mức độ vừa đến nặng có kali máu ≥ 3,3 mmol/L. Nếu kali máu < 3,3 mmol/L nên bù dịch và kali trước khi điều trị insulin.\nb) Bắt đầu bằng…\n\n[B-5481-U047-002 | 5481_QD-BYT_460925.docx | page 47]\na) Chỉ định: BN đái tháo đường nhiễm toan ketone khi hết nhiễm toan và ăn được. Còn với BN đái tháo đường có tăng áp lực thẩm thấu thì có thể giảm liều insulin tĩnh mạch và chuyển tiêm insulin dưới da khi đường huyết xuống dưới 250/dL (14 mmol/L)\nb) Cách tính liều insulin tiêm dưới da…",
+        "context_ids": [
+          "B-5481-U045-002",
+          "B-5481-U046-001",
+          "B-5481-U047-002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Không nên dùng metformin khi độ lọc cầu thận ước tính eGFR < 30 mL/phút. Cân nhắc cẩn thận dùng metformin khi BN mới chẩn đoán có độ lọc cầu thận ước tính < 45 mL/phút. Thận trọng khi dùng metformin ở BN > 80 tuổi, BN có nguy cơ nhiễm acid lactic như suy thận, nghiện rượu mạn. [B-5481-U061-002] [B-5481-U050-003]",
+    "citations": [
+      "B-5481-U061-002",
+      "B-5481-U050-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Bệnh nhân đái tháo đường có độ lọc cầu thận ước tính eGFR 40 mL/phút thì xử trí metformin như thế nào?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U061-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 61,
+            "text": "Chống chỉ định: BN suy thận (độ lọc cầu thận ước tính eGFR < 30 mL/phút, giảm liều khi độ lọc cầu thận ước tính trong khoảng 30-45 mL/phút), suy tim nặng, các tình huống giảm lượng máu đến tổ chức (mô) và/hoặc giảm oxy đến các tổ chức (mô) như choáng, bệnh phổi tắc nghẽn mạn tính. Nếu BN đái tháo đường mới chẩn đoán đã có độ lọc cầu thận ước tính <45mL/phút, nên cân nhắc cẩn thận việc dùng metformin.\nThận trọng khi dùng Metformin ở BN > 80 tuổi, những BN có nguy cơ nhiễm acid lactic như suy thận, nghiện rượu mạn. Ngưng Metformin 24 giờ trước khi chụp hình với thuốc cản quang, phẫu thuật. Cho BN uống đủ nước hay truyền dịch để phòng ngừa suy thận do thuốc cản quang.",
+            "metadata": {
+              "section": "PHU_LUC_01",
+              "unit_id": "5481-U061"
+            },
+            "score": 0.9216560125350952,
+            "method": "rerank",
+            "dense_score": 0.7456693942152943
+          },
+          {
+            "id": "B-5481-U016-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 16,
+            "text": "a) Metformin là lựa chọn đầu tiên để điều trị BN ĐTĐ típ 2 cùng với thay đổi lối sống (bao gồm kiểm soát cân nặng, chế độ ăn và tập luyện thể lực). Có thể kết hợp thay đổi lối sống và metformin ngay từ đầu. Thay đổi lối sống đơn thuần chỉ thực hiện ở những BN mới chẩn đoán, chưa có biến chứng mạn và mức đường huyết gần bình thường.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U016"
+            },
+            "score": 0.8783516883850098,
+            "method": "rerank",
+            "dense_score": 0.6435396629940964
+          },
+          {
+            "id": "B-5481-U050-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 50,
+            "text": "Biến chứng của bệnh thận mạn: 2. Kiểm soát đường huyết chặt chẽ là nền tảng để phòng ngừa và làm chậm biến chứng thận do ĐTĐ. Metformin là thuốc lựa chọn đầu tay trừ khi có chống chỉ định (eGFR < 30mL/ph/1,73m2 da). Ức chế SGLT-2 được chỉ định là thuốc hàng thứ nhì khi có tỷ số A/C > 30 mg/g. Nếu có nguy cơ cao tim mạch kèm theo, đồng vận thụ thể GLP-1 được xem xét chỉ định.",
+            "metadata": {
+              "section": "PHAN_8",
+              "unit_id": "5481-U050"
+            },
+            "score": 0.8608916401863098,
+            "method": "rerank",
+            "dense_score": 0.7052745888128255
+          }
+        ],
+        "context": "[B-5481-U061-002 | 5481_QD-BYT_460925.docx | page 61]\nChống chỉ định: BN suy thận (độ lọc cầu thận ước tính eGFR < 30 mL/phút, giảm liều khi độ lọc cầu thận ước tính trong khoảng 30-45 mL/phút), suy tim nặng, các tình huống giảm lượng máu đến tổ chức (mô) và/hoặc giảm oxy đến các tổ chức (mô) như choáng, bệnh phổi tắc nghẽn mạn tính. Nếu BN đái tháo đường mới chẩn đoán đã có độ lọc cầu thận ước tính <45mL/phút, nên cân nhắc cẩn thận việc dùng metformin.\nThận trọng khi dùng Metformin ở BN > 80 tuổi, những BN có nguy cơ nhiễm acid lactic như suy thận, nghiện rượu mạn. Ngưng Metformin 24 giờ trước khi chụp hình với thuốc cản quang, phẫu thuật. Cho BN uống đủ nước hay truyền dịch để phòng ngừa suy thận do thuốc cản quang.\n\n[B-5481-U016-003 | 5481_QD-BYT_460925.docx | page 16]\na) Metformin là lựa chọn đầu tiên để điều trị BN ĐTĐ típ 2 cùng với thay đổi lối sống (bao gồm kiểm soát cân nặng, chế độ ăn và tập luyện thể lực). Có thể kết hợp thay đổi lối sống và metformin ngay từ đầu. Thay đổi lối sống đơn thuần chỉ thực hiện ở những BN mới chẩn đoán, chưa có biến chứng mạn và mức đường huyết gần bình…\n\n[B-5481-U050-003 | 5481_QD-BYT_460925.docx | page 50]\nBiến chứng của bệnh thận mạn: 2. Kiểm soát đường huyết chặt chẽ là nền tảng để phòng ngừa và làm chậm biến chứng thận do ĐTĐ. Metformin là thuốc lựa chọn đầu tay trừ khi có chống chỉ định (eGFR < 30mL/ph/1,73m2 da). Ức chế SGLT-2 được chỉ định là thuốc hàng thứ nhì khi có tỷ số A/C > 30 mg/g. Nếu có nguy cơ cao tim mạch kèm…",
+        "context_ids": [
+          "B-5481-U061-002",
+          "B-5481-U016-003",
+          "B-5481-U050-003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q_unans_dev_01",
+    "split": "dev",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Theo văn bản, mức giá chi trả bảo hiểm y tế cụ thể cho bút tiêm insulin glargine U300 tại bệnh viện tuyến huyện là bao nhiêu?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U018-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 18,
+            "text": "- Khởi đầu điều trị với insulin nền khi không đạt được mục tiêu glucose huyết với thuốc uống. Liều khởi đầu khuyên dùng là 0,1 - 0,2 đơn vị/kg cân nặng, phụ thuộc vào mức độ tăng glucose huyết, dùng phối hợp với thuốc uống.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U018"
+            },
+            "score": 0.03222199156880379,
+            "method": "rerank",
+            "dense_score": 0.5001053363116188
+          },
+          {
+            "id": "B-5481-U078-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 78,
+            "text": "- Điều trị chỉ bằng insulin (ĐTĐ típ 1- ĐTĐ típ 2) có biểu hiện thiếu hụt insulin nặng: liều khởi đầu insulin là: 0,25 - 0,5 đơn vị/kg cân nặng/ngày. Tổng liều Insulin chia thành 1/2 -1/3 dùng cho insulin nền (Degludec, Glargine, Detemir hoặc NPH), phần còn lại chia tiêm trước 3 bữa ăn sáng, trưa, chiều (Aspart, Lispro, Glulisine, hoặc Regular insulin).\n- Có thể dùng insulin trộn sẵn, thường insulin trộn sẵn tiêm 2 lần/ngày vào bữa ăn sáng và chiều. Một số Insulin trộn sẵn loại analog có thể tiêm 3 lần/ngày.\n- Điều chỉnh liều insulin mỗi 3-4 ngày.\n7. Tác dụng phụ\na) Hạ glucose máu:\nHạ glucose máu là biến chứng thường gặp nhất khi tiêm insulin. Có thể gặp trong các trường hợp: tiêm quá liều insulin, bỏ bữa ăn hoặc ăn muộn sau tiêm insulin, vận động nhiều…",
+            "metadata": {
+              "section": "PHU_LUC_02",
+              "unit_id": "5481-U078"
+            },
+            "score": 0.012271825224161148,
+            "method": "rerank",
+            "dense_score": 0.5102218833499605
+          },
+          {
+            "id": "B-5481-U078-001",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 78,
+            "text": "6. Cách sử dụng insulin\n- Insulin là thuốc có tác dụng hạ glucose máu mạnh nhất. Không có giới hạn trong việc giảm HbA1c.\n- Không có giới hạn liều insulin.\n- Insulin chỉ được tiêm dưới da (ngoại trừ trường hợp cấp cứu), vị trí tiêm là ở bụng, phần trên cánh tay, đùi. Insulin được hấp thu thay đổi tùy tình trạng BN vị trí tiêm.\n- Trường hợp cấp cứu hôn mê do nhiễm ceton acid, tăng áp lực thẩm thấu máu, lúc phẫu thuật, Regular insulin (Insulin thường) được sử dụng để truyền tĩnh mạch.\n- Dùng phối hợp với thuốc viên: liều khởi đầu của insulin nền (dùng insulin tác dụng trung bình hay tác dụng dài) là 0,1 - 0,2 đơn vị/kg cân nặng, tiêm dưới da vào buổi tối trước khi đi ngủ hoặc vào một giờ nhất định trong ngày.",
+            "metadata": {
+              "section": "PHU_LUC_02",
+              "unit_id": "5481-U078"
+            },
+            "score": 0.007344839163124561,
+            "method": "rerank",
+            "dense_score": 0.4942045955122889
+          }
+        ],
+        "context": "[B-5481-U018-003 | 5481_QD-BYT_460925.docx | page 18]\n- Khởi đầu điều trị với insulin nền khi không đạt được mục tiêu glucose huyết với thuốc uống. Liều khởi đầu khuyên dùng là 0,1 - 0,2 đơn vị/kg cân nặng, phụ thuộc vào mức độ tăng glucose huyết, dùng phối hợp với thuốc uống.\n\n[B-5481-U078-002 | 5481_QD-BYT_460925.docx | page 78]\n- Điều trị chỉ bằng insulin (ĐTĐ típ 1- ĐTĐ típ 2) có biểu hiện thiếu hụt insulin nặng: liều khởi đầu insulin là: 0,25 - 0,5 đơn vị/kg cân nặng/ngày. Tổng liều Insulin chia thành 1/2 -1/3 dùng cho insulin nền (Degludec, Glargine, Detemir hoặc NPH), phần còn lại chia tiêm trước 3 bữa ăn sáng, trưa, chiều (Aspart, Lispro, Glulisine, hoặc Regular insulin).\n- Có thể dùng insulin trộn sẵn, thường insulin trộn sẵn tiêm 2 lần/ngày vào bữa ăn sáng và chiều. Một số Insulin trộn sẵn loại analog có thể tiêm 3 lần/ngày.\n- Điều chỉnh liều insulin mỗi 3-4…\n\n[B-5481-U078-001 | 5481_QD-BYT_460925.docx | page 78]\n6. Cách sử dụng insulin\n- Insulin là thuốc có tác dụng hạ glucose máu mạnh nhất. Không có giới hạn trong việc giảm HbA1c.\n- Không có giới hạn liều insulin.\n- Insulin chỉ được tiêm dưới da (ngoại trừ trường hợp cấp cứu), vị trí tiêm là ở bụng, phần trên cánh tay, đùi. Insulin được hấp thu thay đổi tùy tình trạng BN vị trí tiêm.\n- Trường hợp cấp cứu hôn mê do nhiễm ceton acid, tăng áp lực thẩm thấu máu, lúc phẫu thuật, Regular insulin (Insulin thường) được sử dụng để truyền tĩnh mạch.\n- Dùng phối hợp với thuốc viên: liều khởi đầu của insulin nền…",
+        "context_ids": [
+          "B-5481-U018-003",
+          "B-5481-U078-002",
+          "B-5481-U078-001"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  },
+  {
+    "query_id": "q_unans_dev_02",
+    "split": "dev",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Liều khởi đầu và cách chỉnh liều của thuốc đồng vận thụ thể GLP-1/GIP kép Tirzepatide (Mounjaro) trong điều trị đái tháo đường típ 2 là bao nhiêu?",
+        "filter": null,
+        "results": [
+          {
+            "id": "B-5481-U019-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 19,
+            "text": "+ Đối với BN đái tháo đường típ 2 chưa sử dụng insulin: BN có thể khởi trị với insulin hỗn hợp, liều dùng theo thông tin kê đơn được Bộ Y tế phê duyệt, ví dụ insulin gồm 70% Insulin Aspart Protamine/30% Insulin Aspart hòa tan 1 lần hoặc 2 lần mỗi ngày. Nếu khởi trị 1 lần/ngày: liều dùng là 12 đơn vị vào bữa ăn tối (bữa ăn chiều). Nếu khởi trị 2 lần/ngày: liều khởi đầu khuyến cáo là 6 đơn vị vào bữa sáng và 6 đơn vị vào bữa tối (bữa ăn chiều). Trong trường hợp khởi trị với 70% insulin Degludec / 30% insulin Aspart hòa tan, liều được khuyến cáo là 10 đơn vị.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U019"
+            },
+            "score": 0.8167989253997803,
+            "method": "rerank",
+            "dense_score": 0.6219904807846008
+          },
+          {
+            "id": "B-5481-U018-003",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 18,
+            "text": "- Khởi đầu điều trị với insulin nền khi không đạt được mục tiêu glucose huyết với thuốc uống. Liều khởi đầu khuyên dùng là 0,1 - 0,2 đơn vị/kg cân nặng, phụ thuộc vào mức độ tăng glucose huyết, dùng phối hợp với thuốc uống.",
+            "metadata": {
+              "section": "PHAN_4",
+              "unit_id": "5481-U018"
+            },
+            "score": 0.7082355618476868,
+            "method": "rerank",
+            "dense_score": 0.5909821661774896
+          },
+          {
+            "id": "B-5481-U078-002",
+            "source_id": "5481",
+            "source": "5481_QD-BYT_460925.docx",
+            "page": 78,
+            "text": "- Điều trị chỉ bằng insulin (ĐTĐ típ 1- ĐTĐ típ 2) có biểu hiện thiếu hụt insulin nặng: liều khởi đầu insulin là: 0,25 - 0,5 đơn vị/kg cân nặng/ngày. Tổng liều Insulin chia thành 1/2 -1/3 dùng cho insulin nền (Degludec, Glargine, Detemir hoặc NPH), phần còn lại chia tiêm trước 3 bữa ăn sáng, trưa, chiều (Aspart, Lispro, Glulisine, hoặc Regular insulin).\n- Có thể dùng insulin trộn sẵn, thường insulin trộn sẵn tiêm 2 lần/ngày vào bữa ăn sáng và chiều. Một số Insulin trộn sẵn loại analog có thể tiêm 3 lần/ngày.\n- Điều chỉnh liều insulin mỗi 3-4 ngày.\n7. Tác dụng phụ\na) Hạ glucose máu:\nHạ glucose máu là biến chứng thường gặp nhất khi tiêm insulin. Có thể gặp trong các trường hợp: tiêm quá liều insulin, bỏ bữa ăn hoặc ăn muộn sau tiêm insulin, vận động nhiều…",
+            "metadata": {
+              "section": "PHU_LUC_02",
+              "unit_id": "5481-U078"
+            },
+            "score": 0.3570769429206848,
+            "method": "rerank",
+            "dense_score": 0.5895006581244369
+          }
+        ],
+        "context": "[B-5481-U019-003 | 5481_QD-BYT_460925.docx | page 19]\n+ Đối với BN đái tháo đường típ 2 chưa sử dụng insulin: BN có thể khởi trị với insulin hỗn hợp, liều dùng theo thông tin kê đơn được Bộ Y tế phê duyệt, ví dụ insulin gồm 70% Insulin Aspart Protamine/30% Insulin Aspart hòa tan 1 lần hoặc 2 lần mỗi ngày. Nếu khởi trị 1 lần/ngày: liều dùng là 12 đơn vị vào bữa ăn tối (bữa ăn chiều). Nếu khởi trị 2 lần/ngày: liều khởi đầu khuyến cáo là 6 đơn vị vào bữa sáng và 6 đơn vị vào bữa tối (bữa ăn chiều). Trong trường hợp khởi trị với 70% insulin Degludec / 30% insulin Aspart hòa tan, liều được khuyến cáo là 10 đơn vị.\n\n[B-5481-U018-003 | 5481_QD-BYT_460925.docx | page 18]\n- Khởi đầu điều trị với insulin nền khi không đạt được mục tiêu glucose huyết với thuốc uống. Liều khởi đầu khuyên dùng là 0,1 - 0,2 đơn vị/kg cân nặng, phụ thuộc vào mức độ tăng glucose huyết, dùng phối hợp với thuốc uống.\n\n[B-5481-U078-002 | 5481_QD-BYT_460925.docx | page 78]\n- Điều trị chỉ bằng insulin (ĐTĐ típ 1- ĐTĐ típ 2) có biểu hiện thiếu hụt insulin nặng: liều khởi đầu insulin là: 0,25 - 0,5 đơn vị/kg cân nặng/ngày. Tổng liều Insulin chia thành 1/2 -1/3 dùng cho insulin nền (Degludec, Glargine, Detemir hoặc NPH), phần còn lại chia tiêm trước 3 bữa ăn sáng, trưa, chiều (Aspart, Lispro, Glulisine, hoặc Regular insulin).\n- Có thể dùng insulin trộn sẵn, thường insulin trộn sẵn tiêm 2 lần/ngày vào bữa ăn sáng và chiều. Một số Insulin trộn sẵn loại analog có thể tiêm 3 lần/ngày.\n- Điều chỉnh liều insulin mỗi 3-4…",
+        "context_ids": [
+          "B-5481-U019-003",
+          "B-5481-U018-003",
+          "B-5481-U078-002"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ]
+  }
+]
